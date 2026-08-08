@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🌐</div>
+    <div>
+      <h1>Eilatan Lingo</h1>
+      <p class="subtitle">two-way translator</p>
+    </div>
+    <span id="siteLang" class="badge" title="Detected site language">detecting…</span>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="row">
+        <div class="row-text">
+          <strong>Read the site</strong>
+          <span class="hint">Site text → <b id="displayLangLabel">English</b></span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="pageOn" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <div class="row-text">
+          <strong>Type for the site</strong>
+          <span class="hint">Your English → <b id="siteLangLabel">site language</b></span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="inputOn" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="row">
+        <div class="row-text">
+          <strong>Send for the site</strong>
+          <span class="hint">Forms &amp; requests leave in <b id="siteLangLabel2">site language</b>, you still see English</span>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="interactionOn" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <label class="field-label" for="displayLang">Display language</label>
+      <select id="displayLang"></select>
+      <p class="micro-hint">What you want the site text translated <i>into</i>.</p>
+    </section>
+
+    <section class="card">
+      <label class="field-label" for="siteLangOverride">Site language override</label>
+      <select id="siteLangOverride">
+        <option value="">Auto (from page / detected)</option>
+      </select>
+      <p class="micro-hint">If a site has no language tag, or gets it wrong, pick it here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span class="kbd">Alt+Shift+T</span> page &nbsp;·&nbsp;
+    <span class="kbd">Alt+Shift+Y</span> typing &nbsp;·&nbsp;
+    <span class="kbd">Ctrl+Enter</span> force-translate field
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

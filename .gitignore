@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Built artifacts (the release script + CI rebuild these)
+releases/
+*.crx
+*.pem
+
+# Editor noise
+*.swp
+*~
