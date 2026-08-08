@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Brave Search
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FWVEZD8EWAH75Y7JQ2XCD
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FWVEZD8EWAH75Y7JQ2XCD --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FWVEZD8EWAH75Y7JQ2XCD

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Eilatan Lingo — Two Way Translator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Type in English and the site gets its own language. Read the site and you get English. Autodetect, both ways, no keys needed.",
   "default_locale": null,
   "permissions": ["storage", "commands"],

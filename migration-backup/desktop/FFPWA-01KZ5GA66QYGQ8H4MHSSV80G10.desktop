@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Pexels
+Comment=
+Keywords=;
+Categories=Network;
+Icon=FFPWA-01KZ5GA66QYGQ8H4MHSSV80G10
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GA66QYGQ8H4MHSSV80G10 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GA66QYGQ8H4MHSSV80G10

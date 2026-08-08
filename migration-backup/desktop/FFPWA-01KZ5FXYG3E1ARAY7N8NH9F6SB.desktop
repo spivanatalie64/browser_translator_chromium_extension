@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=SourceHut
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FXYG3E1ARAY7N8NH9F6SB
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXYG3E1ARAY7N8NH9F6SB --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXYG3E1ARAY7N8NH9F6SB

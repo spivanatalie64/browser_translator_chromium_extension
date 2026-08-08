@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Mailpit
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MW3DVCHT0872RNYNE01AB
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MW3DVCHT0872RNYNE01AB --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MW3DVCHT0872RNYNE01AB

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Google Voice local client — dedicated Firefox profile (509-903-6580)
+exec /usr/sbin/firefox -P gvoice --no-remote "https://voice.google.com" "$@"

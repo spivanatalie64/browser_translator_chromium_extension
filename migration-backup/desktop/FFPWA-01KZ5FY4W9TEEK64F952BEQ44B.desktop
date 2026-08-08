@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Oracle Cloud
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FY4W9TEEK64F952BEQ44B
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FY4W9TEEK64F952BEQ44B --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FY4W9TEEK64F952BEQ44B

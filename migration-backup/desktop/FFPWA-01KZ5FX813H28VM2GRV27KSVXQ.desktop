@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Meta AI
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FX813H28VM2GRV27KSVXQ
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FX813H28VM2GRV27KSVXQ --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FX813H28VM2GRV27KSVXQ

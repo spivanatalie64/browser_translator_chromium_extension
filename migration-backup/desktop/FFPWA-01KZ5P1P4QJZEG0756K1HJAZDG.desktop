@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=WolframAlpha
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1P4QJZEG0756K1HJAZDG
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1P4QJZEG0756K1HJAZDG --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1P4QJZEG0756K1HJAZDG

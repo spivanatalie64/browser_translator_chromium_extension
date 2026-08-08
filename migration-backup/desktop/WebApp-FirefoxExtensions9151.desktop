@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox Extensions
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="/home/natalie/.local/share/ice/icons/FirefoxExtensions.png" icecat --class WebApp-FirefoxExtensions9151 --name WebApp-FirefoxExtensions9151 --profile /home/natalie/.local/share/ice/firefox/FirefoxExtensions9151 --no-remote "https://addons.mozilla.org/en-US/firefox/extensions/"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/natalie/.local/share/ice/icons/FirefoxExtensions.png
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-FirefoxExtensions9151
+StartupNotify=true
+X-WebApp-Browser=GNU IceCat
+X-WebApp-URL=https://addons.mozilla.org/en-US/firefox/extensions/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true
+

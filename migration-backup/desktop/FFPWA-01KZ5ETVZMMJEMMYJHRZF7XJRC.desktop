@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Bluesky
+Comment=
+Keywords=;
+Categories=Network;
+Icon=FFPWA-01KZ5ETVZMMJEMMYJHRZF7XJRC
+Exec=/usr/bin/firefoxpwa site launch 01KZ5ETVZMMJEMMYJHRZF7XJRC --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5ETVZMMJEMMYJHRZF7XJRC

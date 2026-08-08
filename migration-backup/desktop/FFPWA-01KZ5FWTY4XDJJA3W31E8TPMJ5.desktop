@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=DuckDuckGo
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FWTY4XDJJA3W31E8TPMJ5
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FWTY4XDJJA3W31E8TPMJ5 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FWTY4XDJJA3W31E8TPMJ5

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Wiktionary
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1E1MJYMWHDKK5NTG21GB
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1E1MJYMWHDKK5NTG21GB --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1E1MJYMWHDKK5NTG21GB

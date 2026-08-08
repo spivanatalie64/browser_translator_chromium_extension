@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Mixpost
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FXF4P3NK8N02RCM8WYZ9T
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXF4P3NK8N02RCM8WYZ9T --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXF4P3NK8N02RCM8WYZ9T

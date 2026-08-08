@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Open-Meteo
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1JZC5NH7JPFM0ZFJ5DPN
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1JZC5NH7JPFM0ZFJ5DPN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1JZC5NH7JPFM0ZFJ5DPN

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Cloudflare Radar
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FXNMYQBR0N5NY7ZZV84AR
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXNMYQBR0N5NY7ZZV84AR --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXNMYQBR0N5NY7ZZV84AR

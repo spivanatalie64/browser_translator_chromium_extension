@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Mail.com
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MVQNRR3KA3Y6EFC107HFN
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MVQNRR3KA3Y6EFC107HFN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MVQNRR3KA3Y6EFC107HFN

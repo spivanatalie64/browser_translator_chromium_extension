@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Planka
+Comment=
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KZ5PNFJFBYRVGJ2V0BV6KMJN
+Exec=/usr/bin/firefoxpwa site launch 01KZ5PNFJFBYRVGJ2V0BV6KMJN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5PNFJFBYRVGJ2V0BV6KMJN

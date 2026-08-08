@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Google Keep
+Comment=
+Keywords=;
+Categories=Office;
+Icon=FFPWA-01KZ5MAM9F2T7069276R19KYHK
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MAM9F2T7069276R19KYHK --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MAM9F2T7069276R19KYHK

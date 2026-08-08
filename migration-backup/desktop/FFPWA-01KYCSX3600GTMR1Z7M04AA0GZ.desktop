@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=AcreetionOS GMail
+Comment=
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KYCSX3600GTMR1Z7M04AA0GZ
+Exec=/usr/bin/firefoxpwa site launch 01KYCSX3600GTMR1Z7M04AA0GZ --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KYCSX3600GTMR1Z7M04AA0GZ

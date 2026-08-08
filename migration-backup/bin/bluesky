@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Natalie's Bluesky wrapper
+# Opens Bluesky in IceCat's dedicated "bluesky" profile (sky.app)
+# Usage: bluesky [extra-url]
+
+set -euo pipefail
+
+PROFILE="bluesky"
+BLUESKY_URL="https://bsky.app"
+
+# If IceCat is already running on this profile, just hand it the URL
+if pgrep -f "icecat.*-P $PROFILE" >/dev/null 2>&1; then
+    exec icecat "https://bsky.app" >/dev/null 2>&1 &
+    exit 0
+fi
+
+exec icecat -P "$PROFILE" "${1:-$BLUESKY_URL}" >/dev/null 2>&1 &

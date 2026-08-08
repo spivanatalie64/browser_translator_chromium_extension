@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Windy
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1JBPG6JSTQEB7TQA1QAF
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1JBPG6JSTQEB7TQA1QAF --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1JBPG6JSTQEB7TQA1QAF

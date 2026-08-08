@@ -68,6 +68,7 @@
   function syncMainWorld() {
     try {
       document.documentElement.dataset.etrInteraction = settings.interactionOn ? '1' : '0';
+      document.documentElement.dataset.etrPageOn = settings.pageOn ? '1' : '0';
       document.documentElement.dataset.etrSiteLang = siteLang || '';
     } catch {}
   }
@@ -422,9 +423,20 @@
     if (d.type === 'translate-batch') {
       (async () => {
         const texts = Array.isArray(d.texts) ? d.texts.slice(0, 40) : [];
+        // mode 'in' = site language → your display language (WebSocket inbound).
+        // mode 'out' = your English → site language (everything leaving).
+        const mode = d.mode === 'in' ? 'in' : 'out';
         let target = typeof d.target === 'string' ? d.target : '';
-        if (!target && d.autodetect) target = await resolveTargetForRelay();
-        if (!texts.length || !target || target === 'en') {
+        if (mode === 'in') {
+          target = settings.displayLang || 'en';
+        } else {
+          if (!target && d.autodetect) target = await resolveTargetForRelay();
+          if (!target || target === 'en') {
+            window.postMessage({ source: 'etr-lingo-isolated', id: d.id, items: null, target }, '*');
+            return;
+          }
+        }
+        if (!texts.length || !target) {
           window.postMessage({ source: 'etr-lingo-isolated', id: d.id, items: null, target }, '*');
           return;
         }

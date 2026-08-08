@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Google Analytics
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5G9JBM1JDT0B80Q1YAZJ8N
+Exec=/usr/bin/firefoxpwa site launch 01KZ5G9JBM1JDT0B80Q1YAZJ8N --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5G9JBM1JDT0B80Q1YAZJ8N

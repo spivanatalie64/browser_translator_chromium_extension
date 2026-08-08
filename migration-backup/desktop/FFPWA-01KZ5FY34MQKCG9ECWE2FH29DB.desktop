@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=AWS
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FY34MQKCG9ECWE2FH29DB
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FY34MQKCG9ECWE2FH29DB --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FY34MQKCG9ECWE2FH29DB

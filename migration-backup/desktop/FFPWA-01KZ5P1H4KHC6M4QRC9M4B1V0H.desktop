@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=TradingView
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1H4KHC6M4QRC9M4B1V0H
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1H4KHC6M4QRC9M4B1V0H --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1H4KHC6M4QRC9M4B1V0H

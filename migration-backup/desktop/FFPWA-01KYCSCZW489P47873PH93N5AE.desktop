@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=AcreetionOS GitLab
+Comment=The complete DevOps platform. One application with endless possibilities. Organizations rely on GitLab’s source code management, CI/CD, security, and more to deliver software rapidly.
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KYCSCZW489P47873PH93N5AE
+Exec=/usr/bin/firefoxpwa site launch 01KYCSCZW489P47873PH93N5AE --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KYCSCZW489P47873PH93N5AE

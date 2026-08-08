@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=OneDrive
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5GBJQ3P3PGF3A9JBM6AY92
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GBJQ3P3PGF3A9JBM6AY92 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GBJQ3P3PGF3A9JBM6AY92

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Marginalia
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FWZW9KH2CTCNSXEGPDFV0
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FWZW9KH2CTCNSXEGPDFV0 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FWZW9KH2CTCNSXEGPDFV0

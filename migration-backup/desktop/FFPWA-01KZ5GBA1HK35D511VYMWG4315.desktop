@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=IONOS
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5GBA1HK35D511VYMWG4315
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GBA1HK35D511VYMWG4315 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GBA1HK35D511VYMWG4315

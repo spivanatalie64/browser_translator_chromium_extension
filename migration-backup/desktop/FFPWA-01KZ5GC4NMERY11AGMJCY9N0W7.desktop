@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=HackMD
+Comment=
+Keywords=;
+Categories=Office;
+Icon=FFPWA-01KZ5GC4NMERY11AGMJCY9N0W7
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GC4NMERY11AGMJCY9N0W7 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GC4NMERY11AGMJCY9N0W7

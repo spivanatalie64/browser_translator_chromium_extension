@@ -39,12 +39,12 @@
     return /translate\.(googleapis|google)\.com|googleapis\.com\/translate_/i.test(u);
   }
 
-  function translateBatch(texts, target, autodetect) {
+  function translateBatch(texts, target, autodetect, mode) {
     return new Promise((resolve) => {
       const id = ++msgId;
       PENDING.set(id, resolve);
       window.postMessage(
-        { source: 'etr-lingo-main', type: 'translate-batch', id, texts, target, autodetect },
+        { source: 'etr-lingo-main', type: 'translate-batch', id, texts, target, autodetect, mode: mode || 'out' },
         '*'
       );
       setTimeout(() => {
@@ -107,16 +107,52 @@
     'i'
   );
 
+  const CONTENT_KEY = new RegExp(
+    '^(message|messages?|msg|msgs?|text|txt|content|body|comment|comments?|reply|replies?|question|questions?|' +
+    'answer|answers?|response|responses?|description|desc|summary|detail|details?|note|notes?|bio|about|intro|' +
+    'headline|heading|subtitle|title|subject|topic|thread|post|posts?|tweet|tweets?|status|update|updates?|' +
+    'prompt|query|q|search|term|terms?|keyword|keywords?|tags?|chat|talk|speech|sentence|sentences?|paragraph|' +
+    'review|reviews?|feedback|quote|quotes?|statement|story|news|caption|captions?|overview|name|full_?name|' +
+    'first_?name|last_?name|given_?name|family_?name|nickname|nick|display_?name|screen_?name|real_?name|' +
+    'user_?name|username|login|handle|alias|label|field_?label|aria_?label|placeholder|hint|hint_?text|tooltip|' +
+    'alt|alt_?text|button_?text|link_?text|menu_?item|tab_?label|section|header|footer|tagline|slogan|motto|' +
+    'say|speak|write|typed|input|typed_?text|user_?input|message_?text|body_?text|content_?text)$',
+    'i'
+  );
+
+  function isTokenLike(s) {
+    if (typeof s !== 'string' || !s) return true;
+    if (s.length < 2 || s.length > 2000) return true;
+    if (/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/.test(s)) return true; // binary junk
+    if (/^[\d\s.,+\-*\/%=<>()\[\]]+$/.test(s)) return true; // numeric-ish
+    if (/^https?:\/\//i.test(s) || /^[\w.+-]+@[\w-]+\.[\w.]+$/.test(s)) return true;
+    if (/^(eyJ[\w-]*\.){2}/.test(s)) return true; // JWT
+    return false;
+  }
+
   function looksEnglish(s) {
-    if (typeof s !== 'string' || !s) return false;
-    if (s.length < 2 || s.length > 2000) return false;
+    if (isTokenLike(s)) return false;
     if (!/[A-Za-z]/.test(s)) return false;
-    if (/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/.test(s)) return false; // binary junk
-    if (/^[\d\s.,+\-*\/%=<>()\[\]]+$/.test(s)) return false; // numeric-ish
-    if (/^https?:\/\//i.test(s) || /^[\w.+-]+@[\w-]+\.[\w.]+$/.test(s)) return false;
-    if (/^(eyJ[\w-]*\.){2}/.test(s)) return false; // JWT
     const nonLatin = (s.match(/[^\u0000-\u024F\u2000-\u206F\s.,!?;:'"()\[\]{}@#$%^&*+=<>/\\|~`_\-\u2010-\u2015\u2018\u2019\u201C\u201D\u2026]/g) || []).length;
     return nonLatin / s.length < 0.35;
+  }
+
+  // Outgoing gate: English prose we're willing to touch. Short single words are
+  // usually protocol commands ("ping", "ack", "ready") — leave them alone unless
+  // the key says it's user content.
+  function isOutgoingValue(v, key) {
+    if (!looksEnglish(v)) return false;
+    if (v.includes(' ') || v.length >= 24) return true;
+    return CONTENT_KEY.test(key || '');
+  }
+
+  // Incoming gate: any natural-language prose that ISN'T already English.
+  // The detection gate below decides the rest.
+  function isIncomingProse(s) {
+    if (isTokenLike(s)) return false;
+    if (!/\p{L}/u.test(s)) return false;
+    const hasNonLatin = /[^\u0000-\u024F]/.test(s);
+    return hasNonLatin || s.includes(' ') || s.length >= 24;
   }
 
   // -------------------------------------------------------------------------
@@ -130,24 +166,24 @@
     };
   }
 
-  function walkStrings(obj, c) {
+  function walkStrings(obj, c, predicate) {
     if (obj == null || typeof obj !== 'object') return;
     if (Array.isArray(obj)) {
-      for (const v of obj) walkStrings(v, c);
+      for (const v of obj) walkStrings(v, c, predicate);
       return;
     }
     for (const k of Object.keys(obj)) {
       const v = obj[k];
       if (typeof v === 'string') {
         if (SENSITIVE_KEY.test(k)) continue;
-        if (looksEnglish(v)) c.items.push({ obj, key: k, value: v });
+        if (!predicate || predicate(v, k)) c.items.push({ obj, key: k, value: v });
       } else if (v && typeof v === 'object') {
-        walkStrings(v, c);
+        walkStrings(v, c, predicate);
       }
     }
   }
 
-  async function applyTranslations(items, target, autodetect) {
+  async function applyTranslations(items, target, autodetect, mode) {
     // Dedupe by value.
     const unique = [];
     const seen = new Set();
@@ -156,12 +192,16 @@
     }
     if (!unique.length) return false;
 
-    const resp = await translateBatch(unique, target, autodetect);
+    const resp = await translateBatch(unique, target, autodetect, mode || 'out');
     if (!resp || !Array.isArray(resp.items)) return false;
 
     const map = new Map();
     resp.items.forEach((it, i) => {
-      if (it && it.det === 'en' && it.tx && it.tx !== unique[i]) {
+      if (!it || !it.tx || it.tx === unique[i]) return;
+      const ok = mode === 'in'
+        ? it.det && it.det !== 'en'
+        : it.det === 'en';
+      if (ok) {
         map.set(unique[i], it.tx);
         rememberSync(unique[i], it);
       }
@@ -175,11 +215,11 @@
     return true;
   }
 
-  async function translateParams(params, c) {
+  async function translateParams(params) {
     const entries = [];
     for (const [name, value] of params.entries()) {
       if (SENSITIVE_KEY.test(name)) continue;
-      if (typeof value === 'string' && looksEnglish(value)) entries.push([name, value]);
+      if (typeof value === 'string' && isOutgoingValue(value, name)) entries.push([name, value]);
     }
     if (!entries.length) return false;
     const unique = [...new Set(entries.map(([, v]) => v))];
@@ -198,12 +238,12 @@
     return changed;
   }
 
-  async function translateFormData(fd, c) {
+  async function translateFormData(fd) {
     const entries = [];
     for (const [name, value] of fd.entries()) {
       if (typeof value !== 'string') continue;
       if (SENSITIVE_KEY.test(name)) continue;
-      if (looksEnglish(value)) entries.push([name, value]);
+      if (isOutgoingValue(value, name)) entries.push([name, value]);
     }
     if (!entries.length) return false;
     const unique = [...new Set(entries.map(([, v]) => v))];
@@ -251,8 +291,8 @@
       let obj;
       try { obj = JSON.parse(text); } catch { return null; }
       const c = collectCandidates();
-      walkStrings(obj, c);
-      const changed = await applyTranslations(c.items, siteLang() || '', !siteLang());
+      walkStrings(obj, c, isOutgoingValue);
+      const changed = await applyTranslations(c.items, siteLang() || '', !siteLang(), 'out');
       if (!changed) return null;
       return { changed: true, body: JSON.stringify(obj) };
     }
@@ -269,6 +309,7 @@
     if (!ct || ct.includes('text/')) {
       // Whole body is user prose (e.g. a text/plain chat message).
       if (!looksEnglish(text) || text.length > 2000) return null;
+      if (!text.includes(' ') && text.length < 24) return null; // protocol token, not prose
       const resp = await translateBatch([text], siteLang() || '', !siteLang());
       if (!resp || !resp.items || !resp.items[0]) return null;
       const it = resp.items[0];
@@ -428,7 +469,7 @@
       const name = el.name || el.id;
       if (!name || SENSITIVE_KEY.test(name)) continue;
       const value = (typeof el.value === 'string' ? el.value : '') || '';
-      if (looksEnglish(value)) out.push({ name, value });
+      if (isOutgoingValue(value, name)) out.push({ name, value });
     }
     return out;
   }
@@ -503,4 +544,243 @@
     },
     true
   );
+
+  // -------------------------------------------------------------------------
+  // WebSocket layer.
+  //
+  // OUTGOING:  your English frames → site language, order-preserving.
+  // INCOMING:  site-language frames → your display language (canvas chats
+  //            that never touch the DOM, for example). Gated on pageOn.
+  //
+  // Frames that aren't prose — binary, protocol tokens like "ping"/"ack",
+  // numeric payloads — pass through untouched. Detection gating protects the
+  // rest: a string is only replaced when Google actually identifies it as
+  // being in the wrong language for its direction.
+  // -------------------------------------------------------------------------
+  function pageOn() {
+    return document.documentElement.dataset.etrPageOn === '1';
+  }
+
+  // --- incoming: message listener wrapping --------------------------------
+  const listenerProxyMaps = new WeakMap(); // listener -> WeakMap<socket, proxy>
+  const proxySentinel = true; // lives on proxy functions as .__etrProxy
+
+  function proxyFor(ws, listener) {
+    let perSocket = listenerProxyMaps.get(listener);
+    if (!perSocket) {
+      perSocket = new WeakMap();
+      listenerProxyMaps.set(listener, perSocket);
+    }
+    let proxy = perSocket.get(ws);
+    if (!proxy) {
+      proxy = function etrWsProxy(event) {
+        const data = event.data;
+        const self = this;
+        if (!pageOn() || (typeof data !== 'string' && !(data instanceof Blob))) {
+          return listener.call(self, event);
+        }
+        if (typeof data === 'string') {
+          if (data.length < 2) return listener.call(self, event);
+          queueIncoming(self, listener, event);
+        } else {
+          queueIncomingBlob(self, listener, event);
+        }
+      };
+      proxy.__etrProxy = proxySentinel;
+      perSocket.set(ws, proxy);
+    }
+    return proxy;
+  }
+
+  const ORIG_WS_ADD = WebSocket.prototype.addEventListener;
+  const ORIG_WS_REMOVE = WebSocket.prototype.removeEventListener;
+  WebSocket.prototype.addEventListener = function (type, listener, options) {
+    if (type === 'message' && typeof listener === 'function' && !listener.__etrProxy) {
+      listener = proxyFor(this, listener);
+    }
+    return ORIG_WS_ADD.call(this, type, listener, options);
+  };
+  WebSocket.prototype.removeEventListener = function (type, listener, options) {
+    if (type === 'message' && typeof listener === 'function') {
+      const perSocket = listenerProxyMaps.get(listener);
+      if (perSocket && perSocket.has(this)) listener = perSocket.get(this);
+    }
+    return ORIG_WS_REMOVE.call(this, type, listener, options);
+  };
+
+  const ORIG_ONMSG = Object.getOwnPropertyDescriptor(WebSocket.prototype, 'onmessage');
+  if (ORIG_ONMSG && ORIG_ONMSG.get) {
+    Object.defineProperty(WebSocket.prototype, 'onmessage', {
+      get() { return ORIG_ONMSG.get.call(this); },
+      set(fn) {
+        if (typeof fn === 'function' && !fn.__etrProxy) fn = proxyFor(this, fn);
+        return ORIG_ONMSG.set.call(this, fn);
+      },
+      configurable: true,
+    });
+  }
+
+  // --- incoming: batching + dispatch --------------------------------------
+  let incomingBatch = [];
+  let incomingTimer = null;
+
+  function queueIncoming(ws, listener, event) {
+    incomingBatch.push({ listener, ws, event, data: event.data });
+    if (!incomingTimer) incomingTimer = setTimeout(flushIncoming, 25);
+  }
+
+  function queueIncomingBlob(ws, listener, event) {
+    const blob = event.data;
+    if (blob.type && !/(json|text|javascript|xml)/i.test(blob.type)) {
+      return listener.call(ws, event);
+    }
+    blob
+      .text()
+      .then(async (text) => {
+        if (!text || text.length < 2) return listener.call(ws, event);
+        let out = text;
+        try {
+          const t = await translateIncomingText(text);
+          if (t != null) out = t;
+        } catch {}
+        try {
+          Object.defineProperty(event, 'data', { value: new Blob([out], { type: blob.type || 'text/plain' }), configurable: true, writable: true });
+        } catch {}
+        listener.call(ws, event);
+      })
+      .catch(() => listener.call(ws, event));
+  }
+
+  async function translateIncomingText(text) {
+    if (!text) return null;
+    const trimmed = text.trim();
+    if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+      try {
+        const obj = JSON.parse(text);
+        const c = collectCandidates();
+        walkStrings(obj, c, isIncomingProse);
+        const changed = await applyTranslations(c.items, '', true, 'in');
+        return changed ? JSON.stringify(obj) : null;
+      } catch { /* not JSON after all — fall through */ }
+    }
+    if (looksEnglish(text)) return null; // already English
+    if (!isIncomingProse(text)) return null;
+    const resp = await translateBatch([text], '', true, 'in');
+    if (!resp || !resp.items || !resp.items[0]) return null;
+    const it = resp.items[0];
+    if (!it.det || it.det === 'en' || !it.tx || it.tx === text) return null;
+    rememberSync(text, it);
+    return it.tx;
+  }
+
+  async function flushIncoming() {
+    incomingTimer = null;
+    const batch = incomingBatch;
+    incomingBatch = [];
+    if (!batch.length) return;
+
+    // JSON frames get parsed and walked (only values translated, structure
+    // preserved). Plain frames ride one batched request.
+    const jsonOut = new Map();
+    const plainEntries = [];
+
+    await Promise.all(batch.map(async (b) => {
+      const trimmed = b.data.trim();
+      if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+        try {
+          const t = await translateIncomingText(b.data);
+          if (t != null) jsonOut.set(b.data, t);
+        } catch {}
+      } else {
+        plainEntries.push(b);
+      }
+    }));
+
+    const plainOut = new Map();
+    if (plainEntries.length) {
+      const unique = [...new Set(plainEntries.map((b) => b.data))];
+      let resp = null;
+      try { resp = await translateBatch(unique, '', true, 'in'); } catch {}
+      if (resp && Array.isArray(resp.items)) {
+        unique.forEach((u, i) => {
+          const it = resp.items[i];
+          if (it && it.det && it.det !== 'en' && it.tx && it.tx !== u) plainOut.set(u, it.tx);
+        });
+      }
+    }
+
+    for (const b of batch) {
+      let out = b.data;
+      if (jsonOut.has(b.data)) out = jsonOut.get(b.data);
+      else if (plainOut.has(b.data)) out = plainOut.get(b.data);
+
+      let ev = b.event;
+      if (out !== b.data) {
+        try {
+          Object.defineProperty(ev, 'data', { value: out, configurable: true, writable: true });
+        } catch {
+          try {
+            ev = new MessageEvent('message', {
+              data: out,
+              origin: b.event.origin,
+              lastEventId: b.event.lastEventId,
+              source: b.event.source,
+              ports: b.event.ports,
+            });
+          } catch { ev = b.event; }
+        }
+      }
+      try { b.listener.call(b.ws, ev); } catch (err) { setTimeout(() => { throw err; }); }
+    }
+  }
+
+  // --- outgoing: WebSocket.send -------------------------------------------
+  const origWsSend = WebSocket.prototype.send;
+
+  async function sendWsTranslated(ws, data) {
+    let out = data;
+    try {
+      const t = await translateOutgoingWsText(data);
+      if (t != null) out = t;
+    } catch {}
+    try { origWsSend.call(ws, out); } catch {}
+  }
+
+  async function translateOutgoingWsText(data) {
+    if (!data) return null;
+    const trimmed = data.trim();
+    if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+      let obj;
+      try { obj = JSON.parse(data); } catch { obj = null; }
+      if (obj) {
+        const c = collectCandidates();
+        walkStrings(obj, c, isOutgoingValue);
+        const changed = await applyTranslations(c.items, siteLang() || '', !siteLang(), 'out');
+        return changed ? JSON.stringify(obj) : null;
+      }
+    }
+    if (!looksEnglish(data) || data.length > 2000) return null;
+    if (!data.includes(' ') && data.length < 24) return null; // protocol token
+    const hit = syncCache.get(data);
+    if (hit) return hit.det === 'en' && hit.tx && hit.tx !== data ? hit.tx : null;
+    const resp = await translateBatch([data], siteLang() || '', !siteLang());
+    if (!resp || !resp.items || !resp.items[0]) return null;
+    const it = resp.items[0];
+    if (it.det !== 'en' || !it.tx || it.tx === data) return null;
+    rememberSync(data, it);
+    return it.tx;
+  }
+
+  WebSocket.prototype.send = function (data) {
+    if (interactionOn() && typeof data === 'string') {
+      const ws = this;
+      if (!ws.__etrChain) {
+        Object.defineProperty(ws, '__etrChain', { value: Promise.resolve(), writable: true, configurable: true });
+      }
+      // Per-socket FIFO so translated frames leave in the order they were sent.
+      ws.__etrChain = ws.__etrChain.then(() => sendWsTranslated(ws, data));
+      return;
+    }
+    return origWsSend.call(this, data);
+  };
 })();

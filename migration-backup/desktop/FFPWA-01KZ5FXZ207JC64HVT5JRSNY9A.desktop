@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=SourceForge
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FXZ207JC64HVT5JRSNY9A
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXZ207JC64HVT5JRSNY9A --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXZ207JC64HVT5JRSNY9A

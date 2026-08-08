@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Scaleway
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FY88DNDEKCT5SVP17Y9KY
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FY88DNDEKCT5SVP17Y9KY --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FY88DNDEKCT5SVP17Y9KY

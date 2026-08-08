@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Contabo
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5GBAM0CX2M3BBSFSV92B4D
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GBAM0CX2M3BBSFSV92B4D --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GBAM0CX2M3BBSFSV92B4D

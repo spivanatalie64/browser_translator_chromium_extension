@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Fly.io
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FYC7EK54YMMNGFWVR1N0C
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FYC7EK54YMMNGFWVR1N0C --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FYC7EK54YMMNGFWVR1N0C

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=WeTransfer
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5GC1P12WVF7FTCC167D87D
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GC1P12WVF7FTCC167D87D --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GC1P12WVF7FTCC167D87D

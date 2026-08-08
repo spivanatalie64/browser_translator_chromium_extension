@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Ideogram
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FXB9C87Q6K2YREV5NW4QZ
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXB9C87Q6K2YREV5NW4QZ --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXB9C87Q6K2YREV5NW4QZ

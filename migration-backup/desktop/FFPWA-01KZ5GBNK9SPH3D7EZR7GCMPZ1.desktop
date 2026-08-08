@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=IDrive
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5GBNK9SPH3D7EZR7GCMPZ1
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GBNK9SPH3D7EZR7GCMPZ1 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GBNK9SPH3D7EZR7GCMPZ1

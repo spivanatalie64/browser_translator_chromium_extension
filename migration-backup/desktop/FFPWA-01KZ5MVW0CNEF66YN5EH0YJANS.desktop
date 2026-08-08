@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Maildrop
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MVW0CNEF66YN5EH0YJANS
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MVW0CNEF66YN5EH0YJANS --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MVW0CNEF66YN5EH0YJANS

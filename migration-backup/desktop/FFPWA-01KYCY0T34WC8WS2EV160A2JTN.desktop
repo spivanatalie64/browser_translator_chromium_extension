@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Proton Pass
+Comment=Proton Pass is an open source, end-to-end encrypted password manager app. Create and store passwords, email aliases, 2FA codes, and notes on all your devices
+Keywords=;
+Categories=GTK;;
+Icon=FFPWA-01KYCY0T34WC8WS2EV160A2JTN
+Exec=/usr/bin/firefoxpwa site launch 01KYCY0T34WC8WS2EV160A2JTN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KYCY0T34WC8WS2EV160A2JTN

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Lucidchart
+Comment=
+Keywords=;
+Categories=Office;
+Icon=FFPWA-01KZ5MATZ4WBSX5GW4HQ8YHDMH
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MATZ4WBSX5GW4HQ8YHDMH --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MATZ4WBSX5GW4HQ8YHDMH

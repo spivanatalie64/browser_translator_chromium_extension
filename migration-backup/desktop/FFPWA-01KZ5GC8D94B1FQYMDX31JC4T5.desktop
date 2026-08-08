@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=SoundCloud
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5GC8D94B1FQYMDX31JC4T5
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GC8D94B1FQYMDX31JC4T5 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GC8D94B1FQYMDX31JC4T5

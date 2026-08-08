@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Tencent Cloud
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5GB7NCTZ007H2453CP35KV
+Exec=/usr/bin/firefoxpwa site launch 01KZ5GB7NCTZ007H2453CP35KV --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5GB7NCTZ007H2453CP35KV

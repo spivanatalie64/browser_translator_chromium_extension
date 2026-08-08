@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=ChatGPT
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FX20SGHG6WX0F1384CDQF
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FX20SGHG6WX0F1384CDQF --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FX20SGHG6WX0F1384CDQF

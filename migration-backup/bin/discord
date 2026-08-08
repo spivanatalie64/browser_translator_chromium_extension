@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Natalie's Discord wrapper
+# Opens Discord in IceCat's dedicated "discord" profile (Vencord Web + Discrub loaded)
+# Usage: discord [extra-url]
+
+set -euo pipefail
+
+PROFILE="discord"
+DISCORD_URL="https://discord.com/app"
+
+# If IceCat is already running on this profile, just hand it the URL
+if pgrep -f "icecat.*-P $PROFILE" >/dev/null 2>&1; then
+    exec icecat "https://discord.com/app" >/dev/null 2>&1 &
+    exit 0
+fi
+
+exec icecat -P "$PROFILE" "${1:-$DISCORD_URL}" >/dev/null 2>&1 &

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Google Slides
+Comment=
+Keywords=;
+Categories=Office;
+Icon=FFPWA-01KZ5MAKKH4FFMDD9B0T67A2WA
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MAKKH4FFMDD9B0T67A2WA --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MAKKH4FFMDD9B0T67A2WA

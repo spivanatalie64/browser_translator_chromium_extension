@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Godbolt
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FZ1FPJD6Q9V0AQ7YFSJ75
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FZ1FPJD6Q9V0AQ7YFSJ75 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FZ1FPJD6Q9V0AQ7YFSJ75

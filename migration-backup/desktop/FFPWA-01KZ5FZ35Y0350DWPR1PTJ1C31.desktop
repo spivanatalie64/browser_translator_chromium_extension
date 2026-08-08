@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Hoppscotch
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FZ35Y0350DWPR1PTJ1C31
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FZ35Y0350DWPR1PTJ1C31 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FZ35Y0350DWPR1PTJ1C31

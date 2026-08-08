@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Leonardo
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FXE31Z5SD41N6FN4CNPJF
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXE31Z5SD41N6FN4CNPJF --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXE31Z5SD41N6FN4CNPJF

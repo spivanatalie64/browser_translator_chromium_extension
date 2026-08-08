@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=crates.io
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FZC5A353Y3QYEKZPAFH2H
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FZC5A353Y3QYEKZPAFH2H --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FZC5A353Y3QYEKZPAFH2H

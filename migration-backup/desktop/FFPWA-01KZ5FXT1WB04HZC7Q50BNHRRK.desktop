@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=No-IP
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FXT1WB04HZC7Q50BNHRRK
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXT1WB04HZC7Q50BNHRRK --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXT1WB04HZC7Q50BNHRRK

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=GMX
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MVGE2792GHSGZF14AD3FD
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MVGE2792GHSGZF14AD3FD --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MVGE2792GHSGZF14AD3FD

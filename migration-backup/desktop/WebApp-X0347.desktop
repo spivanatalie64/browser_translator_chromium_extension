@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=X
+Comment=X
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="/home/natalie/.local/share/ice/icons/X.png" icecat --class WebApp-X0347 --name WebApp-X0347 --profile /home/natalie/.local/share/ice/firefox/X0347 --no-remote "https://x.com"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/natalie/.local/share/ice/icons/X.png
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-X0347
+StartupNotify=true
+X-WebApp-Browser=GNU IceCat
+X-WebApp-URL=https://x.com
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

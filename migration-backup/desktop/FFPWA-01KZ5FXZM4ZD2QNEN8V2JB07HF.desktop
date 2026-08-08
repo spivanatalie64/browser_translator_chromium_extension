@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Azure DevOps
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FXZM4ZD2QNEN8V2JB07HF
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXZM4ZD2QNEN8V2JB07HF --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXZM4ZD2QNEN8V2JB07HF

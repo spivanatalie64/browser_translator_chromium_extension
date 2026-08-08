@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Startpage
+Comment=
+Keywords=;
+Categories=Network;Utility;
+Icon=FFPWA-01KZ5FWW0AMZDG75N264DY7QQE
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FWW0AMZDG75N264DY7QQE --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FWW0AMZDG75N264DY7QQE

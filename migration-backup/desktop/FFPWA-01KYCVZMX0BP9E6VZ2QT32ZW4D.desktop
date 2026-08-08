@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Facebook
+Comment=
+Keywords=;
+Categories=Network;
+Icon=FFPWA-01KYCVZMX0BP9E6VZ2QT32ZW4D
+Exec=/usr/bin/firefoxpwa site launch 01KYCVZMX0BP9E6VZ2QT32ZW4D --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KYCVZMX0BP9E6VZ2QT32ZW4D

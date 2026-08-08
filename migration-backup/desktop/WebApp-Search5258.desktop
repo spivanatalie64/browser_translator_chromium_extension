@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Search
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="/home/natalie/.local/share/ice/icons/Search.png" icecat --class WebApp-Search5258 --name WebApp-Search5258 --profile /home/natalie/.local/share/ice/firefox/Search5258 --no-remote "https://html.duckduckgo.com/html/"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/natalie/.local/share/ice/icons/Search.png
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-Search5258
+StartupNotify=true
+X-WebApp-Browser=GNU IceCat
+X-WebApp-URL=https://html.duckduckgo.com/html/
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=true

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=PeerTube
+Comment=
+Keywords=;
+Categories=Network;
+Icon=FFPWA-01KZ5ETWQ80R0ZNVH6S2AJ6QJV
+Exec=/usr/bin/firefoxpwa site launch 01KZ5ETWQ80R0ZNVH6S2AJ6QJV --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5ETWQ80R0ZNVH6S2AJ6QJV

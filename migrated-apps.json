@@ -1,0 +1,2348 @@
+{
+  "migrated_at": "2026-08-07T18:09:49",
+  "backend": "google-chrome-stable",
+  "data_root": "/home/natalie/.config/eilatan-webapps",
+  "pwa_count": 331,
+  "icecat_count": 3,
+  "skipped_pwa_ids": [],
+  "apps": [
+    {
+      "old_id": "FFPWA-01KYCSCEZAD54JJND03J1DEZH9",
+      "name": "YouTube Music",
+      "url": "https://music.youtube.com/?source=pwa",
+      "launcher": "chrome-youtube-music-3J1DEZH9.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/youtube-music-01ky-3J1DEZH9"
+    },
+    {
+      "old_id": "FFPWA-01KYCSCZW489P47873PH93N5AE",
+      "name": "AcreetionOS GitLab",
+      "url": "https://gitlab.acreetionos.org/",
+      "launcher": "chrome-acreetionos-gitlab-PH93N5AE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/acreetionos-gitlab-01ky-PH93N5AE"
+    },
+    {
+      "old_id": "FFPWA-01KYCSEXFKA7Q6MHJTQGZV0CVE",
+      "name": "Home \u00b7 GitLab",
+      "url": "https://gitlab.archlinux.org/",
+      "launcher": "chrome-home-gitlab-QGZV0CVE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/home-gitlab-01ky-QGZV0CVE"
+    },
+    {
+      "old_id": "FFPWA-01KYCSRXNSSTPRYRFRW5H5Y2J3",
+      "name": "natalie@natalie-proliantdl380g7 \u00b7 SSH keys \u00b7 User Settings \u00b7 GitLab",
+      "url": "https://gitlab.freedesktop.org/-/user_settings/ssh_keys/22028",
+      "launcher": "chrome-natalie-natalie-proliantdl380g7-ssh-keys-user-se-W5H5Y2J3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/natalie-natalie-proliantdl380g7-ssh-keys-user-se-W5H5Y2J3"
+    },
+    {
+      "old_id": "FFPWA-01KYCSS8NQESN8F6MC5SEXQW5R",
+      "name": "GitLab",
+      "url": "https://gitlab.gnome.org/",
+      "launcher": "chrome-gitlab-5SEXQW5R.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gitlab-01ky-5SEXQW5R"
+    },
+    {
+      "old_id": "FFPWA-01KYCSSK3HJH0FMZVKJ8YA50JT",
+      "name": "natalie@natalie-proliantdl380g7 \u00b7 SSH Keys \u00b7 User Settings \u00b7 GitLab",
+      "url": "https://salsa.debian.org/-/user_settings/ssh_keys/13434",
+      "launcher": "chrome-natalie-natalie-proliantdl380g7-ssh-keys-user-se-J8YA50JT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/natalie-natalie-proliantdl380g7-ssh-keys-user-se-J8YA50JT"
+    },
+    {
+      "old_id": "FFPWA-01KYCSTM4AJ2YGFJ90WEJWBDT1",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "launcher": "chrome-github-WEJWBDT1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/github-01ky-WEJWBDT1"
+    },
+    {
+      "old_id": "FFPWA-01KYCSVN7YFCAMPS8B1ZGJ8RCF",
+      "name": "Gmail",
+      "url": "https://mail.google.com/mail/?usp=installed_webapp",
+      "launcher": "chrome-gmail-1ZGJ8RCF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gmail-01ky-1ZGJ8RCF"
+    },
+    {
+      "old_id": "FFPWA-01KYCSX3600GTMR1Z7M04AA0GZ",
+      "name": "Gmail",
+      "url": "https://mail.google.com/mail/?usp=installed_webapp",
+      "launcher": "chrome-gmail-M04AA0GZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gmail-01ky-M04AA0GZ"
+    },
+    {
+      "old_id": "FFPWA-01KYCTA0BFXDQSZ54BDHSHFZEZ",
+      "name": "\u2022 Discord | #general | AcreetionOS Community Server",
+      "url": "https://discord.com/channels/1337982171117391952/1337995955311607838",
+      "launcher": "chrome-discord-general-acreetionos-community-server-DHSHFZEZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/discord-general-acreetionos-community-server-01k-DHSHFZEZ"
+    },
+    {
+      "old_id": "FFPWA-01KYCV6C90BSEMCSNMV5GH29MZ",
+      "name": "Proton Mail",
+      "url": "https://mail.proton.me/",
+      "launcher": "chrome-proton-mail-V5GH29MZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/proton-mail-01ky-V5GH29MZ"
+    },
+    {
+      "old_id": "FFPWA-01KYCVZMX0BP9E6VZ2QT32ZW4D",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/",
+      "launcher": "chrome-facebook-QT32ZW4D.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/facebook-01ky-QT32ZW4D"
+    },
+    {
+      "old_id": "FFPWA-01KYCW2E4BZVFZ5BESQ4GQQ1EW",
+      "name": "Dashboard - Disroot Cloud",
+      "url": "https://cloud.disroot.org/apps/dashboard/",
+      "launcher": "chrome-dashboard-disroot-cloud-Q4GQQ1EW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dashboard-disroot-cloud-01ky-Q4GQQ1EW"
+    },
+    {
+      "old_id": "FFPWA-01KYCY0T34WC8WS2EV160A2JTN",
+      "name": "Proton Pass Web App",
+      "url": "https://pass.proton.me/",
+      "launcher": "chrome-proton-pass-web-app-160A2JTN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/proton-pass-web-app-01ky-160A2JTN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ET5YCBJR9YGQJ699JY9NR",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/",
+      "launcher": "chrome-instagram-699JY9NR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/instagram-01kz-699JY9NR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETQ0X9GP2H4WMS51QPH53",
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/",
+      "launcher": "chrome-tiktok-S51QPH53.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tiktok-01kz-S51QPH53"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETQCPXERW1YKA9KA7K2X7",
+      "name": "Snapchat",
+      "url": "https://web.snapchat.com/",
+      "launcher": "chrome-snapchat-9KA7K2X7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/snapchat-01kz-9KA7K2X7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETQSG12A8XXCF42B3AT3T",
+      "name": "Threads",
+      "url": "https://www.threads.net/",
+      "launcher": "chrome-threads-42B3AT3T.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/threads-01kz-42B3AT3T"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETR8J0EWJBVNJE78SEXDY",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/",
+      "launcher": "chrome-reddit-E78SEXDY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/reddit-01kz-E78SEXDY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETRKX2YG2YY991Q40ST18",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "launcher": "chrome-linkedin-1Q40ST18.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/linkedin-01kz-1Q40ST18"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETS0CEBZCXAAGWKW2ASJ5",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "launcher": "chrome-pinterest-WKW2ASJ5.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pinterest-01kz-WKW2ASJ5"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETSBHQYBMBJQZW1K1EN6R",
+      "name": "Tumblr",
+      "url": "https://www.tumblr.com/",
+      "launcher": "chrome-tumblr-W1K1EN6R.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tumblr-01kz-W1K1EN6R"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETSPWGQRBNY18C6WWG1ZA",
+      "name": "WhatsApp",
+      "url": "https://web.whatsapp.com/",
+      "launcher": "chrome-whatsapp-C6WWG1ZA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/whatsapp-01kz-C6WWG1ZA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETT35914KP6MCTZW9HNKG",
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/",
+      "launcher": "chrome-twitch-TZW9HNKG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/twitch-01kz-TZW9HNKG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETTEGENKTSG3Q4YNY3S2S",
+      "name": "Discord",
+      "url": "https://discord.com/app",
+      "launcher": "chrome-discord-4YNY3S2S.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/discord-01kz-4YNY3S2S"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETTW498R1AY1MCSR34ZDR",
+      "name": "Kick",
+      "url": "https://kick.com/",
+      "launcher": "chrome-kick-CSR34ZDR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/kick-01kz-CSR34ZDR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETV6EZ2YEW7DTDYWY097P",
+      "name": "VK",
+      "url": "https://vk.com/",
+      "launcher": "chrome-vk-DYWY097P.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/vk-01kz-DYWY097P"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETVK6HA9E3WCFQCCPN0D1",
+      "name": "Flickr",
+      "url": "https://www.flickr.com/",
+      "launcher": "chrome-flickr-QCCPN0D1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/flickr-01kz-QCCPN0D1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETVZMMJEMMYJHRZF7XJRC",
+      "name": "Bluesky",
+      "url": "https://bsky.app/",
+      "launcher": "chrome-bluesky-RZF7XJRC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bluesky-01kz-RZF7XJRC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETWB653Q5AB4R294KANPY",
+      "name": "Lemmy",
+      "url": "https://lemmy.world/",
+      "launcher": "chrome-lemmy-294KANPY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/lemmy-01kz-294KANPY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETWQ80R0ZNVH6S2AJ6QJV",
+      "name": "PeerTube",
+      "url": "https://peertube.tv/",
+      "launcher": "chrome-peertube-S2AJ6QJV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/peertube-01kz-S2AJ6QJV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETX2W0792XGB7NTR630A2",
+      "name": "Pixelfed",
+      "url": "https://pixelfed.social/",
+      "launcher": "chrome-pixelfed-NTR630A2.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pixelfed-01kz-NTR630A2"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETXFS2GKE5JSCTBFM5KN1",
+      "name": "4chan",
+      "url": "https://www.4chan.org/",
+      "launcher": "chrome-4chan-TBFM5KN1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/4chan-01kz-TBFM5KN1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETXW82PQNKF8HKXT2FHP7",
+      "name": "Nextdoor",
+      "url": "https://nextdoor.com/",
+      "launcher": "chrome-nextdoor-KXT2FHP7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/nextdoor-01kz-KXT2FHP7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETY9NYS8BCVZKJDBT8TV3",
+      "name": "Goodreads",
+      "url": "https://www.goodreads.com/",
+      "launcher": "chrome-goodreads-JDBT8TV3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/goodreads-01kz-JDBT8TV3"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETYKFB3DTKDG7Z1Y92AXC",
+      "name": "Letterboxd",
+      "url": "https://letterboxd.com/",
+      "launcher": "chrome-letterboxd-Z1Y92AXC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/letterboxd-01kz-Z1Y92AXC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETYZ72WWENWTKV2CK5PTH",
+      "name": "Strava",
+      "url": "https://www.strava.com/",
+      "launcher": "chrome-strava-V2CK5PTH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/strava-01kz-V2CK5PTH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETZ9R9HH7QTKZQPXHER15",
+      "name": "BeReal",
+      "url": "https://bereal.com/",
+      "launcher": "chrome-bereal-QPXHER15.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bereal-01kz-QPXHER15"
+    },
+    {
+      "old_id": "FFPWA-01KZ5ETZQXNM3GVJ7AGF6C3XD1",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "launcher": "chrome-hacker-news-GF6C3XD1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hacker-news-01kz-GF6C3XD1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5EV0316FG6KAJ9SWFG22V2",
+      "name": "Primal (Nostr)",
+      "url": "https://primal.net/",
+      "launcher": "chrome-primal-nostr-SWFG22V2.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/primal-nostr-01kz-SWFG22V2"
+    },
+    {
+      "old_id": "FFPWA-01KZ5EV0EWR06YC9EBACX2GT6E",
+      "name": "Diaspora",
+      "url": "https://diasporafoundation.org/",
+      "launcher": "chrome-diaspora-ACX2GT6E.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/diaspora-01kz-ACX2GT6E"
+    },
+    {
+      "old_id": "FFPWA-01KZ5EVA0B26AXT0JH6YF3NMSG",
+      "name": "X",
+      "url": "https://x.com/",
+      "launcher": "chrome-x-6YF3NMSG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/x-01kz-6YF3NMSG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4CXAF4RT9XXQFNWHBVHT",
+      "name": "Zoom",
+      "url": "https://zoom.us/",
+      "launcher": "chrome-zoom-FNWHBVHT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/zoom-01kz-FNWHBVHT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4DAE44SK8959Y5D94AXR",
+      "name": "Google Meet",
+      "url": "https://meet.google.com/",
+      "launcher": "chrome-google-meet-Y5D94AXR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-meet-01kz-Y5D94AXR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4DRPDQEDMNW0TBPCG2GT",
+      "name": "Microsoft Teams",
+      "url": "https://teams.microsoft.com/",
+      "launcher": "chrome-microsoft-teams-TBPCG2GT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/microsoft-teams-01kz-TBPCG2GT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4E7966XDM9R15V6W9G7Z",
+      "name": "Cisco Webex",
+      "url": "https://web.webex.com/",
+      "launcher": "chrome-cisco-webex-5V6W9G7Z.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cisco-webex-01kz-5V6W9G7Z"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4ENDV4RM8YFRTGM9R303",
+      "name": "Skype",
+      "url": "https://web.skype.com/",
+      "launcher": "chrome-skype-TGM9R303.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/skype-01kz-TGM9R303"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4F54FT6NACVAC7YJ8MDQ",
+      "name": "FaceTime",
+      "url": "https://facetime.apple.com/",
+      "launcher": "chrome-facetime-C7YJ8MDQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/facetime-01kz-C7YJ8MDQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4FKCAB1FQ9EPFDQSQD0X",
+      "name": "Slack",
+      "url": "https://slack.com/",
+      "launcher": "chrome-slack-FDQSQD0X.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/slack-01kz-FDQSQD0X"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4G0G5GWJZHH1Z6AA0ZQG",
+      "name": "Guilded",
+      "url": "https://guilded.gg/",
+      "launcher": "chrome-guilded-Z6AA0ZQG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/guilded-01kz-Z6AA0ZQG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4GE0PQSAJDZFDGC1TJCF",
+      "name": "Jitsi Meet",
+      "url": "https://meet.jit.si/",
+      "launcher": "chrome-jitsi-meet-DGC1TJCF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/jitsi-meet-01kz-DGC1TJCF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5F4GVEB18TK8Z9FXR3RD3G",
+      "name": "Whereby",
+      "url": "https://whereby.com/",
+      "launcher": "chrome-whereby-FXR3RD3G.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/whereby-01kz-FXR3RD3G"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FS2EASH7JK3BW154PW8CB",
+      "name": "Twenty CRM",
+      "url": "http://localhost:3000/",
+      "launcher": "chrome-twenty-crm-154PW8CB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/twenty-crm-01kz-154PW8CB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWSWHRFRPE00TSYGBDYST",
+      "name": "Google Search",
+      "url": "https://www.google.com/",
+      "launcher": "chrome-google-search-SYGBDYST.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-search-01kz-SYGBDYST"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWTDXEDDH29YG8S4PAMMR",
+      "name": "Bing",
+      "url": "https://www.bing.com/",
+      "launcher": "chrome-bing-8S4PAMMR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bing-01kz-8S4PAMMR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWTY4XDJJA3W31E8TPMJ5",
+      "name": "DuckDuckGo",
+      "url": "https://duckduckgo.com/",
+      "launcher": "chrome-duckduckgo-1E8TPMJ5.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/duckduckgo-01kz-1E8TPMJ5"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWVEZD8EWAH75Y7JQ2XCD",
+      "name": "Brave Search",
+      "url": "https://search.brave.com/",
+      "launcher": "chrome-brave-search-Y7JQ2XCD.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/brave-search-01kz-Y7JQ2XCD"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWW0AMZDG75N264DY7QQE",
+      "name": "Startpage",
+      "url": "https://www.startpage.com/",
+      "launcher": "chrome-startpage-64DY7QQE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/startpage-01kz-64DY7QQE"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWWHE0HC8WZ6J65DYJFND",
+      "name": "Ecosia",
+      "url": "https://www.ecosia.org/",
+      "launcher": "chrome-ecosia-65DYJFND.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ecosia-01kz-65DYJFND"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWXKNBQGXKA01P381413F",
+      "name": "Mojeek",
+      "url": "https://www.mojeek.com/",
+      "launcher": "chrome-mojeek-P381413F.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mojeek-01kz-P381413F"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWY6AGPJ2VTVSTWZD4N46",
+      "name": "Qwant",
+      "url": "https://www.qwant.com/",
+      "launcher": "chrome-qwant-TWZD4N46.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/qwant-01kz-TWZD4N46"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWYRH6N13ED2774HBVFFZ",
+      "name": "Yandex",
+      "url": "https://yandex.com/",
+      "launcher": "chrome-yandex-74HBVFFZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/yandex-01kz-74HBVFFZ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWZA40Y9CM9VY9J0SKN5N",
+      "name": "Baidu",
+      "url": "https://www.baidu.com/",
+      "launcher": "chrome-baidu-9J0SKN5N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/baidu-01kz-9J0SKN5N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FWZW9KH2CTCNSXEGPDFV0",
+      "name": "Marginalia",
+      "url": "https://search.marginalia.nu/",
+      "launcher": "chrome-marginalia-XEGPDFV0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/marginalia-01kz-XEGPDFV0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX0DQKNPH11WH8GH9JMZX",
+      "name": "Presearch",
+      "url": "https://presearch.com/",
+      "launcher": "chrome-presearch-8GH9JMZX.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/presearch-01kz-8GH9JMZX"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX0XNZ58GXQ46APJAJNRR",
+      "name": "MetaGer",
+      "url": "https://metager.org/",
+      "launcher": "chrome-metager-APJAJNRR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/metager-01kz-APJAJNRR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX1FCVBWZ8W0RS0B9D4D0",
+      "name": "SearXNG",
+      "url": "https://searx.be/",
+      "launcher": "chrome-searxng-S0B9D4D0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/searxng-01kz-S0B9D4D0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX20SGHG6WX0F1384CDQF",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/",
+      "launcher": "chrome-chatgpt-1384CDQF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/chatgpt-01kz-1384CDQF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX2HHK8V98NAPJKENJXRQ",
+      "name": "Claude",
+      "url": "https://claude.ai/",
+      "launcher": "chrome-claude-JKENJXRQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/claude-01kz-JKENJXRQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX327WGAATDN5VSBA3ZNR",
+      "name": "Gemini",
+      "url": "https://gemini.google.com/",
+      "launcher": "chrome-gemini-VSBA3ZNR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gemini-01kz-VSBA3ZNR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX3MZCD9KREKD8SGGZ329",
+      "name": "Grok",
+      "url": "https://grok.com/",
+      "launcher": "chrome-grok-8SGGZ329.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/grok-01kz-8SGGZ329"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX468AHCYY46GNTH9PRR9",
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai/",
+      "launcher": "chrome-perplexity-NTH9PRR9.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/perplexity-01kz-NTH9PRR9"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX4QJH7C3VA4Y6JVG6TJQ",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com/",
+      "launcher": "chrome-deepseek-6JVG6TJQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/deepseek-01kz-6JVG6TJQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX58WPEHMYV3T6N2177JW",
+      "name": "Le Chat",
+      "url": "https://chat.mistral.ai/",
+      "launcher": "chrome-le-chat-6N2177JW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/le-chat-01kz-6N2177JW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX5TFZT8MXYEP0EJQBZZ2",
+      "name": "HuggingChat",
+      "url": "https://huggingface.co/chat",
+      "launcher": "chrome-huggingchat-0EJQBZZ2.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/huggingchat-01kz-0EJQBZZ2"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX6DTD3BCMRB4DD91KF6W",
+      "name": "Poe",
+      "url": "https://poe.com/",
+      "launcher": "chrome-poe-DD91KF6W.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/poe-01kz-DD91KF6W"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX6XAA44BCZ7PN1325B18",
+      "name": "Pi",
+      "url": "https://pi.ai/",
+      "launcher": "chrome-pi-N1325B18.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pi-01kz-N1325B18"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX7GFS0QDCKQ0J55D95HN",
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com/",
+      "launcher": "chrome-microsoft-copilot-J55D95HN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/microsoft-copilot-01kz-J55D95HN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX813H28VM2GRV27KSVXQ",
+      "name": "Meta AI",
+      "url": "https://www.meta.ai/",
+      "launcher": "chrome-meta-ai-V27KSVXQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/meta-ai-01kz-V27KSVXQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX8K3DSDFFQHZHK2SRQH3",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com/",
+      "launcher": "chrome-notebooklm-HK2SRQH3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/notebooklm-01kz-HK2SRQH3"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX94R5PHR1P2Q45CT0RHH",
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "launcher": "chrome-openrouter-45CT0RHH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/openrouter-01kz-45CT0RHH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FX9NS10WPHK2ZARNQ4P4H",
+      "name": "Character.AI",
+      "url": "https://character.ai/",
+      "launcher": "chrome-character-ai-ARNQ4P4H.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/character-ai-01kz-ARNQ4P4H"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXA67EJQM5VQEHEEF7MGS",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "launcher": "chrome-elevenlabs-HEEF7MGS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/elevenlabs-01kz-HEEF7MGS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXB9C87Q6K2YREV5NW4QZ",
+      "name": "Ideogram",
+      "url": "https://ideogram.ai/",
+      "launcher": "chrome-ideogram-EV5NW4QZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ideogram-01kz-EV5NW4QZ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXBV14FMYP61AG7KVZ47W",
+      "name": "Runway",
+      "url": "https://runwayml.com/",
+      "launcher": "chrome-runway-G7KVZ47W.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/runway-01kz-G7KVZ47W"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXCD58M3M7KN4H3NMKMTX",
+      "name": "Stability AI",
+      "url": "https://platform.stability.ai/",
+      "launcher": "chrome-stability-ai-H3NMKMTX.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/stability-ai-01kz-H3NMKMTX"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXCYVSYFXTW83C6QNABJ4",
+      "name": "Suno",
+      "url": "https://suno.com/",
+      "launcher": "chrome-suno-C6QNABJ4.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/suno-01kz-C6QNABJ4"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXDHFM27JBQ2S8DY3HMWJ",
+      "name": "Krea",
+      "url": "https://www.krea.ai/",
+      "launcher": "chrome-krea-8DY3HMWJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/krea-01kz-8DY3HMWJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXE31Z5SD41N6FN4CNPJF",
+      "name": "Leonardo",
+      "url": "https://leonardo.ai/",
+      "launcher": "chrome-leonardo-FN4CNPJF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/leonardo-01kz-FN4CNPJF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXEMN56D24R7F83Y7VSHW",
+      "name": "Postiz",
+      "url": "https://postiz.com/",
+      "launcher": "chrome-postiz-83Y7VSHW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/postiz-01kz-83Y7VSHW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXF4P3NK8N02RCM8WYZ9T",
+      "name": "Mixpost",
+      "url": "https://mixpost.app/",
+      "launcher": "chrome-mixpost-CM8WYZ9T.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mixpost-01kz-CM8WYZ9T"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXM14G10MDCE22YB9N7AN",
+      "name": "WordPress.com",
+      "url": "https://wordpress.com/",
+      "launcher": "chrome-wordpress-com-2YB9N7AN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wordpress-com-01kz-2YB9N7AN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXMK64PAMZRP9M5GQGCYN",
+      "name": "Ghost",
+      "url": "https://ghost.io/",
+      "launcher": "chrome-ghost-M5GQGCYN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ghost-01kz-M5GQGCYN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXN3555CCG1WRP7ZPX5PN",
+      "name": "Cloudflare Dashboard",
+      "url": "https://dash.cloudflare.com/",
+      "launcher": "chrome-cloudflare-dashboard-P7ZPX5PN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cloudflare-dashboard-01kz-P7ZPX5PN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXNMYQBR0N5NY7ZZV84AR",
+      "name": "Cloudflare Radar",
+      "url": "https://radar.cloudflare.com/",
+      "launcher": "chrome-cloudflare-radar-7ZZV84AR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cloudflare-radar-01kz-7ZZV84AR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXP70JZJFF7E5MHRKZ5VF",
+      "name": "Fastly",
+      "url": "https://manage.fastly.com/",
+      "launcher": "chrome-fastly-MHRKZ5VF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/fastly-01kz-MHRKZ5VF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXPS9BMRMTAFXRG0J83GC",
+      "name": "Akamai",
+      "url": "https://control.akamai.com/",
+      "launcher": "chrome-akamai-RG0J83GC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/akamai-01kz-RG0J83GC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXQBB86X0VNTWK0N18VK4",
+      "name": "Bunny",
+      "url": "https://dash.bunny.net/",
+      "launcher": "chrome-bunny-K0N18VK4.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bunny-01kz-K0N18VK4"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXQX1ZXSVH0ZTXMT1GCR6",
+      "name": "Imperva",
+      "url": "https://my.imperva.com/",
+      "launcher": "chrome-imperva-XMT1GCR6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/imperva-01kz-XMT1GCR6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXREFFRWBMVF30GHF8WJ7",
+      "name": "Sucuri",
+      "url": "https://dashboard.sucuri.net/",
+      "launcher": "chrome-sucuri-0GHF8WJ7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/sucuri-01kz-0GHF8WJ7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXS01819PTSM9KRMEZWB1",
+      "name": "Vercel",
+      "url": "https://vercel.com/",
+      "launcher": "chrome-vercel-KRMEZWB1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/vercel-01kz-KRMEZWB1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXSGA826E2ZBHP6MCJJEE",
+      "name": "Netlify",
+      "url": "https://app.netlify.com/",
+      "launcher": "chrome-netlify-P6MCJJEE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/netlify-01kz-P6MCJJEE"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXT1WB04HZC7Q50BNHRRK",
+      "name": "No-IP",
+      "url": "https://www.noip.com/",
+      "launcher": "chrome-no-ip-50BNHRRK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/no-ip-01kz-50BNHRRK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXTK0F8CADMWAA0PV2W3M",
+      "name": "DuckDNS",
+      "url": "https://www.duckdns.org/",
+      "launcher": "chrome-duckdns-A0PV2W3M.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/duckdns-01kz-A0PV2W3M"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXV62TT24F6DNBP97J2TS",
+      "name": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "launcher": "chrome-freedns-BP97J2TS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/freedns-01kz-BP97J2TS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXVR0HC4E0E4E4JWX8A88",
+      "name": "jsDelivr",
+      "url": "https://www.jsdelivr.com/",
+      "launcher": "chrome-jsdelivr-4JWX8A88.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/jsdelivr-01kz-4JWX8A88"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXW9N1MGH3G9S69PM4FFF",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "launcher": "chrome-github-69PM4FFF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/github-01kz-69PM4FFF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXWTXW9BWZCHBZEC3MZQ5",
+      "name": "GitLab.com",
+      "url": "https://gitlab.com/",
+      "launcher": "chrome-gitlab-com-ZEC3MZQ5.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gitlab-com-01kz-ZEC3MZQ5"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXXCMZ9MCRHTZYAT4FADQ",
+      "name": "Codeberg",
+      "url": "https://codeberg.org/",
+      "launcher": "chrome-codeberg-YAT4FADQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/codeberg-01kz-YAT4FADQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXXXXCKGRMP3X2SRXE75C",
+      "name": "Bitbucket",
+      "url": "https://bitbucket.org/",
+      "launcher": "chrome-bitbucket-2SRXE75C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bitbucket-01kz-2SRXE75C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXYG3E1ARAY7N8NH9F6SB",
+      "name": "SourceHut",
+      "url": "https://sr.ht/",
+      "launcher": "chrome-sourcehut-8NH9F6SB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/sourcehut-01kz-8NH9F6SB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXZ207JC64HVT5JRSNY9A",
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/",
+      "launcher": "chrome-sourceforge-5JRSNY9A.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/sourceforge-01kz-5JRSNY9A"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FXZM4ZD2QNEN8V2JB07HF",
+      "name": "Azure DevOps",
+      "url": "https://dev.azure.com/",
+      "launcher": "chrome-azure-devops-V2JB07HF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/azure-devops-01kz-V2JB07HF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY06D2PW8YPT7Q8MMW8WQ",
+      "name": "Gitea",
+      "url": "https://gitea.com/",
+      "launcher": "chrome-gitea-Q8MMW8WQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gitea-01kz-Q8MMW8WQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY0RSQD80DB337YB7D2G1",
+      "name": "Gogs",
+      "url": "https://gogs.io/",
+      "launcher": "chrome-gogs-7YB7D2G1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gogs-01kz-7YB7D2G1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY1BJT74QV8JJ6JTCBCKQ",
+      "name": "Framagit",
+      "url": "https://framagit.org/",
+      "launcher": "chrome-framagit-6JTCBCKQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/framagit-01kz-6JTCBCKQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY20NYGSVXZYW01FWPD63",
+      "name": "KDE Invent",
+      "url": "https://invent.kde.org/",
+      "launcher": "chrome-kde-invent-01FWPD63.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/kde-invent-01kz-01FWPD63"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY2K0QVCEDG1J8728WEBA",
+      "name": "GNU Savannah",
+      "url": "https://savannah.gnu.org/",
+      "launcher": "chrome-gnu-savannah-8728WEBA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gnu-savannah-01kz-8728WEBA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY34MQKCG9ECWE2FH29DB",
+      "name": "AWS",
+      "url": "https://console.aws.amazon.com/",
+      "launcher": "chrome-aws-E2FH29DB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/aws-01kz-E2FH29DB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY3P28BCRRYT0C6CET33F",
+      "name": "Azure",
+      "url": "https://portal.azure.com/",
+      "launcher": "chrome-azure-C6CET33F.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/azure-01kz-C6CET33F"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY48Q58CCD02DDXVXHAJV",
+      "name": "Google Cloud",
+      "url": "https://console.cloud.google.com/",
+      "launcher": "chrome-google-cloud-DXVXHAJV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-cloud-01kz-DXVXHAJV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY4W9TEEK64F952BEQ44B",
+      "name": "Oracle Cloud",
+      "url": "https://cloud.oracle.com/",
+      "launcher": "chrome-oracle-cloud-52BEQ44B.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/oracle-cloud-01kz-52BEQ44B"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY5EZ5D4J6PRPT8TT9K4S",
+      "name": "IBM Cloud",
+      "url": "https://cloud.ibm.com/",
+      "launcher": "chrome-ibm-cloud-T8TT9K4S.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ibm-cloud-01kz-T8TT9K4S"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY5ZKRP4CA31AM1H29JYG",
+      "name": "DigitalOcean",
+      "url": "https://cloud.digitalocean.com/",
+      "launcher": "chrome-digitalocean-M1H29JYG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/digitalocean-01kz-M1H29JYG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY6J33GXVF9HZ3EDJCEKP",
+      "name": "Akamai Cloud",
+      "url": "https://cloud.linode.com/",
+      "launcher": "chrome-akamai-cloud-3EDJCEKP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/akamai-cloud-01kz-3EDJCEKP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY747J1NJN994ZBN5SS1H",
+      "name": "Vultr",
+      "url": "https://my.vultr.com/",
+      "launcher": "chrome-vultr-ZBN5SS1H.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/vultr-01kz-ZBN5SS1H"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY7PNAWMRXFNZEQKJ9Y28",
+      "name": "Hetzner",
+      "url": "https://console.hetzner.cloud/",
+      "launcher": "chrome-hetzner-EQKJ9Y28.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hetzner-01kz-EQKJ9Y28"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY88DNDEKCT5SVP17Y9KY",
+      "name": "Scaleway",
+      "url": "https://console.scaleway.com/",
+      "launcher": "chrome-scaleway-VP17Y9KY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/scaleway-01kz-VP17Y9KY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY8T76MW2RSTHR1WTX1XF",
+      "name": "OVHcloud",
+      "url": "https://www.ovhcloud.com/",
+      "launcher": "chrome-ovhcloud-R1WTX1XF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ovhcloud-01kz-R1WTX1XF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY9CXTBR91SYR6X3VE7Z6",
+      "name": "Gandi",
+      "url": "https://admin.gandi.net/",
+      "launcher": "chrome-gandi-6X3VE7Z6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gandi-01kz-6X3VE7Z6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FY9ZB35PCJC24GJH4KGDY",
+      "name": "Firebase",
+      "url": "https://console.firebase.google.com/",
+      "launcher": "chrome-firebase-GJH4KGDY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/firebase-01kz-GJH4KGDY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYAH6M7KT6VYBJ2FHEH5Z",
+      "name": "Supabase",
+      "url": "https://app.supabase.com/",
+      "launcher": "chrome-supabase-J2FHEH5Z.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/supabase-01kz-J2FHEH5Z"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYB402DJ8WS50XAVF7CRW",
+      "name": "Railway",
+      "url": "https://railway.app/",
+      "launcher": "chrome-railway-XAVF7CRW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/railway-01kz-XAVF7CRW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYBNA5PEQ5YPCQZN3JA28",
+      "name": "Render",
+      "url": "https://dashboard.render.com/",
+      "launcher": "chrome-render-QZN3JA28.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/render-01kz-QZN3JA28"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYC7EK54YMMNGFWVR1N0C",
+      "name": "Fly.io",
+      "url": "https://fly.io/",
+      "launcher": "chrome-fly-io-FWVR1N0C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/fly-io-01kz-FWVR1N0C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYCSKC33VAGEV6JHPBR75",
+      "name": "Heroku",
+      "url": "https://dashboard.heroku.com/",
+      "launcher": "chrome-heroku-6JHPBR75.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/heroku-01kz-6JHPBR75"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYDBZYEESCDV5Q263WMYH",
+      "name": "Backblaze",
+      "url": "https://secure.backblaze.com/",
+      "launcher": "chrome-backblaze-Q263WMYH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/backblaze-01kz-Q263WMYH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYDYJ5FTGB3S6R3X8TEM6",
+      "name": "Wasabi",
+      "url": "https://console.wasabisys.com/",
+      "launcher": "chrome-wasabi-R3X8TEM6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wasabi-01kz-R3X8TEM6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYEHVEKPTSQAFY9S8Y4SW",
+      "name": "Terraform Cloud",
+      "url": "https://app.terraform.io/",
+      "launcher": "chrome-terraform-cloud-Y9S8Y4SW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/terraform-cloud-01kz-Y9S8Y4SW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYF1XREZWKYB6K6TWSP49",
+      "name": "Pulumi",
+      "url": "https://app.pulumi.com/",
+      "launcher": "chrome-pulumi-K6TWSP49.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pulumi-01kz-K6TWSP49"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYFN4MA463D5JPYQ87956",
+      "name": "MxToolbox",
+      "url": "https://mxtoolbox.com/",
+      "launcher": "chrome-mxtoolbox-PYQ87956.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mxtoolbox-01kz-PYQ87956"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYG79QRF3S3DWH7ZPF86A",
+      "name": "Hurricane Electric",
+      "url": "https://bgp.he.net/",
+      "launcher": "chrome-hurricane-electric-H7ZPF86A.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hurricane-electric-01kz-H7ZPF86A"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYGRW7W19MXDSS26Z8S8G",
+      "name": "Shodan",
+      "url": "https://www.shodan.io/",
+      "launcher": "chrome-shodan-S26Z8S8G.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/shodan-01kz-S26Z8S8G"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYHC4HQSQG45FKCGFRK1C",
+      "name": "Censys",
+      "url": "https://search.censys.io/",
+      "launcher": "chrome-censys-KCGFRK1C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/censys-01kz-KCGFRK1C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYHZ72WDAE63H8CWRZXRW",
+      "name": "VirusTotal",
+      "url": "https://www.virustotal.com/",
+      "launcher": "chrome-virustotal-8CWRZXRW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/virustotal-01kz-8CWRZXRW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYJJ6KN4KR7PNTB138C7N",
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/",
+      "launcher": "chrome-have-i-been-pwned-TB138C7N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/have-i-been-pwned-01kz-TB138C7N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYK4NCHZ7GW59MHP35VT3",
+      "name": "Netcraft",
+      "url": "https://sitereport.netcraft.com/",
+      "launcher": "chrome-netcraft-MHP35VT3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/netcraft-01kz-MHP35VT3"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYKNKQE07ZQSTWJ3EAMC7",
+      "name": "DNS Checker",
+      "url": "https://dnschecker.org/",
+      "launcher": "chrome-dns-checker-WJ3EAMC7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dns-checker-01kz-WJ3EAMC7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYR2WB7334EMZTPHT890V",
+      "name": "UptimeRobot",
+      "url": "https://uptimerobot.com/",
+      "launcher": "chrome-uptimerobot-TPHT890V.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/uptimerobot-01kz-TPHT890V"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYS872ACDZZZ7M69WDBY3",
+      "name": "PageSpeed",
+      "url": "https://pagespeed.web.dev/",
+      "launcher": "chrome-pagespeed-M69WDBY3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pagespeed-01kz-M69WDBY3"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYSR2Y49W3EPCFJYDB1TG",
+      "name": "urlscan",
+      "url": "https://urlscan.io/",
+      "launcher": "chrome-urlscan-FJYDB1TG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/urlscan-01kz-FJYDB1TG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYTTDCPQEKEDQS335RVT6",
+      "name": "UniFi",
+      "url": "https://unifi.ui.com/",
+      "launcher": "chrome-unifi-S335RVT6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/unifi-01kz-S335RVT6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYX5R9TX408EMJS0SK2S9",
+      "name": "CodePen",
+      "url": "https://codepen.io/",
+      "launcher": "chrome-codepen-JS0SK2S9.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/codepen-01kz-JS0SK2S9"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYXPZVHN294NJF9GXKW9E",
+      "name": "JSFiddle",
+      "url": "https://jsfiddle.net/",
+      "launcher": "chrome-jsfiddle-F9GXKW9E.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/jsfiddle-01kz-F9GXKW9E"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FYZVPP2NBYG7W27Y2MK3N",
+      "name": "StackBlitz",
+      "url": "https://stackblitz.com/",
+      "launcher": "chrome-stackblitz-27Y2MK3N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/stackblitz-01kz-27Y2MK3N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZ0XBD95MDTXFHBZM05EV",
+      "name": "VSCode Web",
+      "url": "https://vscode.dev/",
+      "launcher": "chrome-vscode-web-HBZM05EV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/vscode-web-01kz-HBZM05EV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZ1FPJD6Q9V0AQ7YFSJ75",
+      "name": "Godbolt",
+      "url": "https://godbolt.org/",
+      "launcher": "chrome-godbolt-Q7YFSJ75.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/godbolt-01kz-Q7YFSJ75"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZ2286TEBEY35QJE2QBGP",
+      "name": "Regex101",
+      "url": "https://regex101.com/",
+      "launcher": "chrome-regex101-QJE2QBGP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/regex101-01kz-QJE2QBGP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZ35Y0350DWPR1PTJ1C31",
+      "name": "Hoppscotch",
+      "url": "https://hoppscotch.io/",
+      "launcher": "chrome-hoppscotch-1PTJ1C31.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hoppscotch-01kz-1PTJ1C31"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZB31E1W74C37NY64AHCF",
+      "name": "npm",
+      "url": "https://www.npmjs.com/",
+      "launcher": "chrome-npm-NY64AHCF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/npm-01kz-NY64AHCF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZBME4494372F76B2ECZP",
+      "name": "PyPI",
+      "url": "https://pypi.org/",
+      "launcher": "chrome-pypi-76B2ECZP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pypi-01kz-76B2ECZP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZC5A353Y3QYEKZPAFH2H",
+      "name": "crates.io",
+      "url": "https://crates.io/",
+      "launcher": "chrome-crates-io-KZPAFH2H.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/crates-io-01kz-KZPAFH2H"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZCN1GYQ9896QQDXP98A8",
+      "name": "Docker Hub",
+      "url": "https://hub.docker.com/",
+      "launcher": "chrome-docker-hub-QDXP98A8.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/docker-hub-01kz-QDXP98A8"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZD6S32RYCN06E322N1GD",
+      "name": "Quay",
+      "url": "https://quay.io/",
+      "launcher": "chrome-quay-E322N1GD.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/quay-01kz-E322N1GD"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZDRQQD4ZT1SDVC2D41TY",
+      "name": "AUR",
+      "url": "https://aur.archlinux.org/",
+      "launcher": "chrome-aur-VC2D41TY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/aur-01kz-VC2D41TY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZEAHEJRFTQXZ931WBR73",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "launcher": "chrome-stack-overflow-931WBR73.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/stack-overflow-01kz-931WBR73"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZEWB9RS3G7VW35MPGHCV",
+      "name": "ReadTheDocs",
+      "url": "https://readthedocs.org/",
+      "launcher": "chrome-readthedocs-35MPGHCV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/readthedocs-01kz-35MPGHCV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZFC4BRHP225MYQ4KC87A",
+      "name": "DEV Community",
+      "url": "https://dev.to/",
+      "launcher": "chrome-dev-community-YQ4KC87A.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dev-community-01kz-YQ4KC87A"
+    },
+    {
+      "old_id": "FFPWA-01KZ5FZGKWTGF39DVA2K435E6Q",
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com/",
+      "launcher": "chrome-excalidraw-2K435E6Q.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/excalidraw-01kz-2K435E6Q"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9HR5F0EV9WTV3RYNRRZZ",
+      "name": "Google Search Console",
+      "url": "https://search.google.com/search-console",
+      "launcher": "chrome-google-search-console-3RYNRRZZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-search-console-01kz-3RYNRRZZ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9JBM1JDT0B80Q1YAZJ8N",
+      "name": "Google Analytics",
+      "url": "https://analytics.google.com/",
+      "launcher": "chrome-google-analytics-Q1YAZJ8N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-analytics-01kz-Q1YAZJ8N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9K0BAB6YZRBJA8SCF2M5",
+      "name": "Bing Webmaster Tools",
+      "url": "https://www.bing.com/webmasters",
+      "launcher": "chrome-bing-webmaster-tools-A8SCF2M5.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bing-webmaster-tools-01kz-A8SCF2M5"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9KK53Q785G99FQ9KA5E7",
+      "name": "Yandex Webmaster",
+      "url": "https://webmaster.yandex.ru/",
+      "launcher": "chrome-yandex-webmaster-FQ9KA5E7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/yandex-webmaster-01kz-FQ9KA5E7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9YFV5Y1AT5QKQX7QE7TA",
+      "name": "PostHog",
+      "url": "https://posthog.com/",
+      "launcher": "chrome-posthog-QX7QE7TA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/posthog-01kz-QX7QE7TA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5G9ZRYYZD05B16DA5JAN5N",
+      "name": "Umami",
+      "url": "https://umami.is/",
+      "launcher": "chrome-umami-DA5JAN5N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/umami-01kz-DA5JAN5N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GA4G9RA1TV3SK0HZDFEWG",
+      "name": "Photopea",
+      "url": "https://www.photopea.com/",
+      "launcher": "chrome-photopea-0HZDFEWG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/photopea-01kz-0HZDFEWG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GA5P2MH7Z094TAP4WHPCP",
+      "name": "Unsplash",
+      "url": "https://unsplash.com/",
+      "launcher": "chrome-unsplash-AP4WHPCP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/unsplash-01kz-AP4WHPCP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GA66QYGQ8H4MHSSV80G10",
+      "name": "Pexels",
+      "url": "https://www.pexels.com/",
+      "launcher": "chrome-pexels-SSV80G10.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pexels-01kz-SSV80G10"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GA6S38TMCZV36XTJ2223B",
+      "name": "Pixabay",
+      "url": "https://pixabay.com/",
+      "launcher": "chrome-pixabay-XTJ2223B.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pixabay-01kz-XTJ2223B"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GA9RCTKVS739BHZTRYYQA",
+      "name": "Carrd",
+      "url": "https://carrd.co/",
+      "launcher": "chrome-carrd-HZTRYYQA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/carrd-01kz-HZTRYYQA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GACSW60D3H4N0K43ZNPZ7",
+      "name": "Neocities",
+      "url": "https://neocities.org/",
+      "launcher": "chrome-neocities-K43ZNPZ7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/neocities-01kz-K43ZNPZ7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAFNRVJJJZTQBKDN02F91",
+      "name": "Substack",
+      "url": "https://substack.com/",
+      "launcher": "chrome-substack-KDN02F91.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/substack-01kz-KDN02F91"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAHXZQBDKXRYFDB512F11",
+      "name": "Google Alerts",
+      "url": "https://www.google.com/alerts",
+      "launcher": "chrome-google-alerts-DB512F11.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-alerts-01kz-DB512F11"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAN10HWB9Y8KXFQBVD3PK",
+      "name": "Qwoted",
+      "url": "https://qwoted.com/",
+      "launcher": "chrome-qwoted-FQBVD3PK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/qwoted-01kz-FQBVD3PK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAQYHJJDWEJQSGPB3YEXG",
+      "name": "Spotify for Creators",
+      "url": "https://creators.spotify.com/",
+      "launcher": "chrome-spotify-for-creators-GPB3YEXG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/spotify-for-creators-01kz-GPB3YEXG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GARGQSJ4ZZT0ERVEZFAMQ",
+      "name": "Social Blade",
+      "url": "https://socialblade.com/",
+      "launcher": "chrome-social-blade-RVEZFAMQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/social-blade-01kz-RVEZFAMQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAS3KJA71YY3R7Q83KCNR",
+      "name": "Tor GitLab",
+      "url": "https://gitlab.torproject.org/",
+      "launcher": "chrome-tor-gitlab-7Q83KCNR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tor-gitlab-01kz-7Q83KCNR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GASPT3DQH5Q4355T5PQJH",
+      "name": "Eclipse GitLab",
+      "url": "https://gitlab.eclipse.org/",
+      "launcher": "chrome-eclipse-gitlab-55T5PQJH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/eclipse-gitlab-01kz-55T5PQJH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAT9NDMC7HFV7R8YW6Z0D",
+      "name": "ISC GitLab",
+      "url": "https://gitlab.isc.org/",
+      "launcher": "chrome-isc-gitlab-R8YW6Z0D.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/isc-gitlab-01kz-R8YW6Z0D"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GATW4YRQ9HYFZ4BJTA8MK",
+      "name": "CZ.NIC GitLab",
+      "url": "https://gitlab.nic.cz/",
+      "launcher": "chrome-cz-nic-gitlab-4BJTA8MK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cz-nic-gitlab-01kz-4BJTA8MK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAVG06KF8CXBXSKRXE4MT",
+      "name": "OW2 GitLab",
+      "url": "https://gitlab.ow2.org/",
+      "launcher": "chrome-ow2-gitlab-SKRXE4MT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ow2-gitlab-01kz-SKRXE4MT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAW38FT47HK10NA73EF6Y",
+      "name": "Haskell GitLab",
+      "url": "https://gitlab.haskell.org/",
+      "launcher": "chrome-haskell-gitlab-NA73EF6Y.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/haskell-gitlab-01kz-NA73EF6Y"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAWNXGP8B9DQ2ZCWQCP88",
+      "name": "Inria GitLab",
+      "url": "https://gitlab.inria.fr/",
+      "launcher": "chrome-inria-gitlab-ZCWQCP88.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/inria-gitlab-01kz-ZCWQCP88"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAX8DKT44EZRTWHEK1CJF",
+      "name": "VideoLAN GitLab",
+      "url": "https://code.videolan.org/",
+      "launcher": "chrome-videolan-gitlab-WHEK1CJF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/videolan-gitlab-01kz-WHEK1CJF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAYD59EZ124G6PA5W43X6",
+      "name": "Ko-fi",
+      "url": "https://ko-fi.com/",
+      "launcher": "chrome-ko-fi-PA5W43X6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ko-fi-01kz-PA5W43X6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAYZ8W3471K314QFFP4BA",
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/",
+      "launcher": "chrome-buy-me-a-coffee-4QFFP4BA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/buy-me-a-coffee-01kz-4QFFP4BA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GAZFVXA5B7GMF3GH0VHKA",
+      "name": "Gumroad",
+      "url": "https://gumroad.com/",
+      "launcher": "chrome-gumroad-3GH0VHKA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gumroad-01kz-3GH0VHKA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB03J191VJG78EN358C3C",
+      "name": "Itch.io",
+      "url": "https://itch.io/",
+      "launcher": "chrome-itch-io-EN358C3C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/itch-io-01kz-EN358C3C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB0P64BV1056SCQ46EPQ0",
+      "name": "YouTube Studio",
+      "url": "https://studio.youtube.com/",
+      "launcher": "chrome-youtube-studio-CQ46EPQ0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/youtube-studio-01kz-CQ46EPQ0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB17YMVZWRB9NJA17Z316",
+      "name": "Apple Podcasts Connect",
+      "url": "https://podcastsconnect.apple.com/",
+      "launcher": "chrome-apple-podcasts-connect-JA17Z316.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/apple-podcasts-connect-01kz-JA17Z316"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB1TFPGVNENP5KM3WWK4N",
+      "name": "Google Play Console",
+      "url": "https://play.google.com/console",
+      "launcher": "chrome-google-play-console-KM3WWK4N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-play-console-01kz-KM3WWK4N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB2YGR7F5D0WPVCGRS9P1",
+      "name": "Steamworks",
+      "url": "https://partner.steamgames.com/",
+      "launcher": "chrome-steamworks-VCGRS9P1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/steamworks-01kz-VCGRS9P1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB72RREYE2YQNSZV3DN47",
+      "name": "Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/",
+      "launcher": "chrome-alibaba-cloud-SZV3DN47.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/alibaba-cloud-01kz-SZV3DN47"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB7NCTZ007H2453CP35KV",
+      "name": "Tencent Cloud",
+      "url": "https://cloud.tencent.com/",
+      "launcher": "chrome-tencent-cloud-53CP35KV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tencent-cloud-01kz-53CP35KV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB87XMD891221HKAE0316",
+      "name": "Huawei Cloud",
+      "url": "https://www.huaweicloud.com/",
+      "launcher": "chrome-huawei-cloud-HKAE0316.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/huawei-cloud-01kz-HKAE0316"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB8WANCBBGD97NVMWEFSH",
+      "name": "Rackspace",
+      "url": "https://login.rackspace.com/",
+      "launcher": "chrome-rackspace-NVMWEFSH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/rackspace-01kz-NVMWEFSH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GB9GWY18BYW65HQD841NC",
+      "name": "Leaseweb",
+      "url": "https://www.leaseweb.com/",
+      "launcher": "chrome-leaseweb-HQD841NC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/leaseweb-01kz-HQD841NC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBA1HK35D511VYMWG4315",
+      "name": "IONOS",
+      "url": "https://www.ionos.com/",
+      "launcher": "chrome-ionos-YMWG4315.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ionos-01kz-YMWG4315"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBAM0CX2M3BBSFSV92B4D",
+      "name": "Contabo",
+      "url": "https://contabo.com/",
+      "launcher": "chrome-contabo-FSV92B4D.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/contabo-01kz-FSV92B4D"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBB6GKESDG3SAJRRB4DFW",
+      "name": "Kamatera",
+      "url": "https://console.kamatera.com/",
+      "launcher": "chrome-kamatera-JRRB4DFW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/kamatera-01kz-JRRB4DFW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBBST8AZCMJDFW22E0VB1",
+      "name": "Hostinger",
+      "url": "https://hpanel.hostinger.com/",
+      "launcher": "chrome-hostinger-W22E0VB1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hostinger-01kz-W22E0VB1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBCCED2M0SV9WTNYJPSJX",
+      "name": "DreamHost",
+      "url": "https://panel.dreamhost.com/",
+      "launcher": "chrome-dreamhost-TNYJPSJX.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dreamhost-01kz-TNYJPSJX"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBCXQK4XBKGV1DZVRZ5BQ",
+      "name": "Cloudways",
+      "url": "https://platform.cloudways.com/",
+      "launcher": "chrome-cloudways-DZVRZ5BQ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cloudways-01kz-DZVRZ5BQ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBDGGY4JQRGBMQNC3ET75",
+      "name": "UpCloud",
+      "url": "https://hub.upcloud.com/",
+      "launcher": "chrome-upcloud-QNC3ET75.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/upcloud-01kz-QNC3ET75"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBE22G5NG12QKV5B7H1C8",
+      "name": "Exoscale",
+      "url": "https://portal.exoscale.com/",
+      "launcher": "chrome-exoscale-V5B7H1C8.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/exoscale-01kz-V5B7H1C8"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBENC72RNJSGEZFFFNKYW",
+      "name": "Equinix Metal",
+      "url": "https://console.equinix.com/",
+      "launcher": "chrome-equinix-metal-ZFFFNKYW.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/equinix-metal-01kz-ZFFFNKYW"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBF7Z2HREK9GRQM818EQF",
+      "name": "Civo",
+      "url": "https://dashboard.civo.com/",
+      "launcher": "chrome-civo-QM818EQF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/civo-01kz-QM818EQF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBFT9D2EA4T3CDEQEJCGJ",
+      "name": "Red Hat Console",
+      "url": "https://console.redhat.com/",
+      "launcher": "chrome-red-hat-console-DEQEJCGJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/red-hat-console-01kz-DEQEJCGJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBGCRYCBP7KM22R08QJE4",
+      "name": "Snowflake",
+      "url": "https://app.snowflake.com/",
+      "launcher": "chrome-snowflake-2R08QJE4.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/snowflake-01kz-2R08QJE4"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBGZN2BDAKAJ7VMB5XTS8",
+      "name": "Databricks",
+      "url": "https://accounts.cloud.databricks.com/",
+      "launcher": "chrome-databricks-VMB5XTS8.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/databricks-01kz-VMB5XTS8"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBHHX36BS6QEWT9XP9FS1",
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/",
+      "launcher": "chrome-dropbox-T9XP9FS1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dropbox-01kz-T9XP9FS1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBJ4W224Z72JVX9VNVQDD",
+      "name": "Google Drive",
+      "url": "https://drive.google.com/",
+      "launcher": "chrome-google-drive-X9VNVQDD.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-drive-01kz-X9VNVQDD"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBJQ3P3PGF3A9JBM6AY92",
+      "name": "OneDrive",
+      "url": "https://onedrive.live.com/",
+      "launcher": "chrome-onedrive-JBM6AY92.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/onedrive-01kz-JBM6AY92"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBK9PDABM604BAV5EX8YK",
+      "name": "iCloud",
+      "url": "https://www.icloud.com/",
+      "launcher": "chrome-icloud-AV5EX8YK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/icloud-01kz-AV5EX8YK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBKW0HQX81A50DCFB9TCT",
+      "name": "Mega",
+      "url": "https://mega.io/",
+      "launcher": "chrome-mega-DCFB9TCT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mega-01kz-DCFB9TCT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBMDRFGQB8EJV3FHW8SKR",
+      "name": "pCloud",
+      "url": "https://www.pcloud.com/",
+      "launcher": "chrome-pcloud-3FHW8SKR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pcloud-01kz-3FHW8SKR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBN0K53FVFJZA9DRF5MMV",
+      "name": "Sync.com",
+      "url": "https://www.sync.com/",
+      "launcher": "chrome-sync-com-9DRF5MMV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/sync-com-01kz-9DRF5MMV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBNK9SPH3D7EZR7GCMPZ1",
+      "name": "IDrive",
+      "url": "https://www.idrive.com/",
+      "launcher": "chrome-idrive-R7GCMPZ1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/idrive-01kz-R7GCMPZ1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBP6HFXD0FKMCG55R06TE",
+      "name": "Proton Drive",
+      "url": "https://drive.proton.me/",
+      "launcher": "chrome-proton-drive-G55R06TE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/proton-drive-01kz-G55R06TE"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBPSB0S6M7G9W7H4PEXRC",
+      "name": "OwnCloud",
+      "url": "https://owncloud.com/",
+      "launcher": "chrome-owncloud-7H4PEXRC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/owncloud-01kz-7H4PEXRC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBQDDK9H7YG5GDJQD9EDP",
+      "name": "Internxt",
+      "url": "https://internxt.com/",
+      "launcher": "chrome-internxt-DJQD9EDP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/internxt-01kz-DJQD9EDP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBR36W4J5MH8MGZVGZQVD",
+      "name": "Namecheap",
+      "url": "https://www.namecheap.com/",
+      "launcher": "chrome-namecheap-GZVGZQVD.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/namecheap-01kz-GZVGZQVD"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBRNQ8YFFWACG1QVETN66",
+      "name": "Porkbun",
+      "url": "https://porkbun.com/",
+      "launcher": "chrome-porkbun-1QVETN66.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/porkbun-01kz-1QVETN66"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBS9Y8NR5ZKHPPFW186NK",
+      "name": "Hover",
+      "url": "https://www.hover.com/",
+      "launcher": "chrome-hover-PFW186NK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hover-01kz-PFW186NK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBSWD3RZ8W00THBR1JCP9",
+      "name": "Dynadot",
+      "url": "https://www.dynadot.com/",
+      "launcher": "chrome-dynadot-HBR1JCP9.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dynadot-01kz-HBR1JCP9"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBV2F1Y2TM9J1V2KKNJXP",
+      "name": "Tuta",
+      "url": "https://tuta.com/",
+      "launcher": "chrome-tuta-V2KKNJXP.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tuta-01kz-V2KKNJXP"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBVMXV1RK3GFF11J2QRRT",
+      "name": "Zoho Mail",
+      "url": "https://www.zoho.com/mail",
+      "launcher": "chrome-zoho-mail-11J2QRRT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/zoho-mail-01kz-11J2QRRT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBW77TZ4AZ2SFNKN4GBEV",
+      "name": "Outlook",
+      "url": "https://outlook.live.com/",
+      "launcher": "chrome-outlook-NKN4GBEV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/outlook-01kz-NKN4GBEV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBWSEWXKE75MH6FES23BH",
+      "name": "Google Calendar",
+      "url": "https://calendar.google.com/",
+      "launcher": "chrome-google-calendar-6FES23BH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-calendar-01kz-6FES23BH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBXE7NX43T4VKPYXPHHP7",
+      "name": "Proton Calendar",
+      "url": "https://calendar.proton.me/",
+      "launcher": "chrome-proton-calendar-PYXPHHP7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/proton-calendar-01kz-PYXPHHP7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBY1NZE038080YT8T492M",
+      "name": "Feedly",
+      "url": "https://feedly.com/",
+      "launcher": "chrome-feedly-YT8T492M.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/feedly-01kz-YT8T492M"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBYPS1NH20NNDE4QGV3M2",
+      "name": "Inoreader",
+      "url": "https://www.inoreader.com/",
+      "launcher": "chrome-inoreader-E4QGV3M2.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/inoreader-01kz-E4QGV3M2"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GBZB0AHZKNJTJ496WTP4K",
+      "name": "NewsBlur",
+      "url": "https://newsblur.com/",
+      "launcher": "chrome-newsblur-496WTP4K.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/newsblur-01kz-496WTP4K"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC0244AGA81ASDAVD1W62",
+      "name": "Bitwarden Vault",
+      "url": "https://vault.bitwarden.com/",
+      "launcher": "chrome-bitwarden-vault-DAVD1W62.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bitwarden-vault-01kz-DAVD1W62"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC0WT1HHQ0BQDJTPEPXNF",
+      "name": "Tailscale Admin",
+      "url": "https://login.tailscale.com/",
+      "launcher": "chrome-tailscale-admin-JTPEPXNF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tailscale-admin-01kz-JTPEPXNF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC1P12WVF7FTCC167D87D",
+      "name": "WeTransfer",
+      "url": "https://wetransfer.com/",
+      "launcher": "chrome-wetransfer-C167D87D.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wetransfer-01kz-C167D87D"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC2HQ968G0AQZ426RNVV6",
+      "name": "Snapdrop",
+      "url": "https://snapdrop.net/",
+      "launcher": "chrome-snapdrop-426RNVV6.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/snapdrop-01kz-426RNVV6"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC39M69Q0BTZSEFPP602B",
+      "name": "CryptPad",
+      "url": "https://cryptpad.fr/",
+      "launcher": "chrome-cryptpad-EFPP602B.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/cryptpad-01kz-EFPP602B"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC3ZW7CDT589HXGXJTF0N",
+      "name": "OnlyOffice Cloud",
+      "url": "https://cloud.onlyoffice.com/",
+      "launcher": "chrome-onlyoffice-cloud-XGXJTF0N.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/onlyoffice-cloud-01kz-XGXJTF0N"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC4NMERY11AGMJCY9N0W7",
+      "name": "HackMD",
+      "url": "https://hackmd.io/",
+      "launcher": "chrome-hackmd-JCY9N0W7.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/hackmd-01kz-JCY9N0W7"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC59H0VGAMNFKE8QKAPZN",
+      "name": "Google Docs",
+      "url": "https://docs.google.com/",
+      "launcher": "chrome-google-docs-E8QKAPZN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-docs-01kz-E8QKAPZN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC60CD47BR0449A7E8R75",
+      "name": "Google Photos",
+      "url": "https://photos.google.com/",
+      "launcher": "chrome-google-photos-9A7E8R75.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-photos-01kz-9A7E8R75"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC7VX9SVENW0QH9DWTD8Z",
+      "name": "Spotify",
+      "url": "https://open.spotify.com/",
+      "launcher": "chrome-spotify-H9DWTD8Z.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/spotify-01kz-H9DWTD8Z"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC8D94B1FQYMDX31JC4T5",
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com/",
+      "launcher": "chrome-soundcloud-X31JC4T5.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/soundcloud-01kz-X31JC4T5"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC9088G4W9EN9NDPW9ZGH",
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com/",
+      "launcher": "chrome-bandcamp-NDPW9ZGH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bandcamp-01kz-NDPW9ZGH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GC9KVGHZVT8KDASQAJTRT",
+      "name": "Last.fm",
+      "url": "https://www.last.fm/",
+      "launcher": "chrome-last-fm-ASQAJTRT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/last-fm-01kz-ASQAJTRT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCA81DM93D7F39AQPJ20M",
+      "name": "Pocket Casts",
+      "url": "https://play.pocketcasts.com/",
+      "launcher": "chrome-pocket-casts-9AQPJ20M.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/pocket-casts-01kz-9AQPJ20M"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCAX2WTF2DFWT8NQKCETZ",
+      "name": "Google Maps",
+      "url": "https://maps.google.com/",
+      "launcher": "chrome-google-maps-8NQKCETZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-maps-01kz-8NQKCETZ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCBFBBQZGJZ3QRWD7YV5T",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "launcher": "chrome-openstreetmap-RWD7YV5T.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/openstreetmap-01kz-RWD7YV5T"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCC6K0HFYKNFGY4HVQJA0",
+      "name": "Uptime Kuma",
+      "url": "http://localhost:3001/",
+      "launcher": "chrome-uptime-kuma-Y4HVQJA0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/uptime-kuma-01kz-Y4HVQJA0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCCRSR59D1RWQBGCR7XPN",
+      "name": "n8n",
+      "url": "http://localhost:5678/",
+      "launcher": "chrome-n8n-BGCR7XPN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/n8n-01kz-BGCR7XPN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCDEQWMSQ3SEGRA4VNZ3K",
+      "name": "Open WebUI",
+      "url": "http://localhost:8080/",
+      "launcher": "chrome-open-webui-RA4VNZ3K.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/open-webui-01kz-RA4VNZ3K"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCE09DNE0ERRWMFCY75SF",
+      "name": "Netdata",
+      "url": "http://localhost:19999/",
+      "launcher": "chrome-netdata-MFCY75SF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/netdata-01kz-MFCY75SF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCEJ8R601BS5BBED0BP94",
+      "name": "Jenkins",
+      "url": "http://localhost:8081/",
+      "launcher": "chrome-jenkins-BED0BP94.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/jenkins-01kz-BED0BP94"
+    },
+    {
+      "old_id": "FFPWA-01KZ5GCF4BXX63CG6H15HWDWXS",
+      "name": "Portainer",
+      "url": "http://localhost:9000/",
+      "launcher": "chrome-portainer-15HWDWXS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/portainer-01kz-15HWDWXS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5KEMHFRWT5285AE4MZG5S8",
+      "name": "Vaultwarden",
+      "url": "http://localhost:8111/",
+      "launcher": "chrome-vaultwarden-E4MZG5S8.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/vaultwarden-01kz-E4MZG5S8"
+    },
+    {
+      "old_id": "FFPWA-01KZ5KENE0HCJGHHRT8QEQMGAJ",
+      "name": "ComfyUI",
+      "url": "http://localhost:8188/",
+      "launcher": "chrome-comfyui-8QEQMGAJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/comfyui-01kz-8QEQMGAJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5KF2ERHC9F23HHJ1AYPGER",
+      "name": "Gitea (local)",
+      "url": "http://localhost:3010/",
+      "launcher": "chrome-gitea-local-J1AYPGER.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gitea-local-01kz-J1AYPGER"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAJX397F9Z1VZJBP978WS",
+      "name": "Google Sheets",
+      "url": "https://sheets.google.com/",
+      "launcher": "chrome-google-sheets-JBP978WS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-sheets-01kz-JBP978WS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAKKH4FFMDD9B0T67A2WA",
+      "name": "Google Slides",
+      "url": "https://slides.google.com/",
+      "launcher": "chrome-google-slides-0T67A2WA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-slides-01kz-0T67A2WA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAM9F2T7069276R19KYHK",
+      "name": "Google Keep",
+      "url": "https://keep.google.com/",
+      "launcher": "chrome-google-keep-6R19KYHK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-keep-01kz-6R19KYHK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAMZKP6BT37WCY42SQAB4",
+      "name": "OneNote",
+      "url": "https://www.onenote.com/",
+      "launcher": "chrome-onenote-Y42SQAB4.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/onenote-01kz-Y42SQAB4"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MANPZYSBSZC32D4HKB2GX",
+      "name": "Office 365",
+      "url": "https://www.office.com/",
+      "launcher": "chrome-office-365-D4HKB2GX.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/office-365-01kz-D4HKB2GX"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAPA8YWVCX03BE17WJKWT",
+      "name": "Dropbox Paper",
+      "url": "https://paper.dropbox.com/",
+      "launcher": "chrome-dropbox-paper-E17WJKWT.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dropbox-paper-01kz-E17WJKWT"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAPYXW0WECA8D2B421E6J",
+      "name": "Overleaf",
+      "url": "https://www.overleaf.com/",
+      "launcher": "chrome-overleaf-2B421E6J.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/overleaf-01kz-2B421E6J"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAQNDPJYA6SCKEKVPBB7H",
+      "name": "Airtable",
+      "url": "https://airtable.com/",
+      "launcher": "chrome-airtable-EKVPBB7H.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/airtable-01kz-EKVPBB7H"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MARARG47SEKTMHC7PS539",
+      "name": "Coda",
+      "url": "https://coda.io/",
+      "launcher": "chrome-coda-HC7PS539.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/coda-01kz-HC7PS539"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MARZCZZ3PHHAHSKXQZ7D2",
+      "name": "Zoho Office",
+      "url": "https://www.zoho.com/",
+      "launcher": "chrome-zoho-office-SKXQZ7D2.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/zoho-office-01kz-SKXQZ7D2"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MASKPN7YYKZRNE21040QS",
+      "name": "Smallpdf",
+      "url": "https://smallpdf.com/",
+      "launcher": "chrome-smallpdf-E21040QS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/smallpdf-01kz-E21040QS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAT8QRD7YPGK9H7JWJM6G",
+      "name": "iLovePDF",
+      "url": "https://www.ilovepdf.com/",
+      "launcher": "chrome-ilovepdf-H7JWJM6G.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/ilovepdf-01kz-H7JWJM6G"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MATZ4WBSX5GW4HQ8YHDMH",
+      "name": "Lucidchart",
+      "url": "https://www.lucidchart.com/",
+      "launcher": "chrome-lucidchart-HQ8YHDMH.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/lucidchart-01kz-HQ8YHDMH"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAVJYHA676W59JCK14ZR8",
+      "name": "Whimsical",
+      "url": "https://whimsical.com/",
+      "launcher": "chrome-whimsical-JCK14ZR8.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/whimsical-01kz-JCK14ZR8"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAW97DYW2EA1339VM67EJ",
+      "name": "Miro",
+      "url": "https://miro.com/",
+      "launcher": "chrome-miro-39VM67EJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/miro-01kz-39VM67EJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAWXH597DAXQN7H63DWX0",
+      "name": "Framapad",
+      "url": "https://framapad.org/",
+      "launcher": "chrome-framapad-7H63DWX0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/framapad-01kz-7H63DWX0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAXPCHAMTR9DC5DB9GHMC",
+      "name": "Framacalc",
+      "url": "https://framacalc.org/",
+      "launcher": "chrome-framacalc-5DB9GHMC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/framacalc-01kz-5DB9GHMC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MAZKWYDFC560GK1EB9650",
+      "name": "OnlyOffice (local)",
+      "url": "http://localhost:8082/",
+      "launcher": "chrome-onlyoffice-local-K1EB9650.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/onlyoffice-local-01kz-K1EB9650"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MB07DB0EAY88X3CB648EG",
+      "name": "Etherpad",
+      "url": "http://localhost:9001/",
+      "launcher": "chrome-etherpad-3CB648EG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/etherpad-01kz-3CB648EG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MB0TTYMEM6WRVW4VM2GPM",
+      "name": "Bookstack",
+      "url": "http://localhost:8083/",
+      "launcher": "chrome-bookstack-W4VM2GPM.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/bookstack-01kz-W4VM2GPM"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVEY3E6VWEKXHR7J2GWMN",
+      "name": "Yahoo Mail",
+      "url": "https://mail.yahoo.com/",
+      "launcher": "chrome-yahoo-mail-R7J2GWMN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/yahoo-mail-01kz-R7J2GWMN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVGE2792GHSGZF14AD3FD",
+      "name": "GMX",
+      "url": "https://www.gmx.com/",
+      "launcher": "chrome-gmx-F14AD3FD.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/gmx-01kz-F14AD3FD"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVHVF1GVACNMTQQF4ZFJM",
+      "name": "AOL Mail",
+      "url": "https://mail.aol.com/",
+      "launcher": "chrome-aol-mail-QQF4ZFJM.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/aol-mail-01kz-QQF4ZFJM"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVKEK2DJJH27SE5R3RHTG",
+      "name": "iCloud Mail",
+      "url": "https://www.icloud.com/mail",
+      "launcher": "chrome-icloud-mail-E5R3RHTG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/icloud-mail-01kz-E5R3RHTG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVN425BPBMQAX2Z0WQEWR",
+      "name": "Mail.ru",
+      "url": "https://mail.ru/",
+      "launcher": "chrome-mail-ru-2Z0WQEWR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mail-ru-01kz-2Z0WQEWR"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVPDC39Q76W2FGWE197R0",
+      "name": "Yandex Mail",
+      "url": "https://mail.yandex.com/",
+      "launcher": "chrome-yandex-mail-GWE197R0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/yandex-mail-01kz-GWE197R0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVQNRR3KA3Y6EFC107HFN",
+      "name": "Mail.com",
+      "url": "https://www.mail.com/",
+      "launcher": "chrome-mail-com-FC107HFN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mail-com-01kz-FC107HFN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVRK4N9SS47KKC9P8QBZV",
+      "name": "Google Contacts",
+      "url": "https://contacts.google.com/",
+      "launcher": "chrome-google-contacts-C9P8QBZV.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-contacts-01kz-C9P8QBZV"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVSR4GPB1N59VW09YEHQB",
+      "name": "Mail-tester",
+      "url": "https://www.mail-tester.com/",
+      "launcher": "chrome-mail-tester-W09YEHQB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mail-tester-01kz-W09YEHQB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVTWJ2YKMVZ5RTRZH5HFJ",
+      "name": "Mailinator",
+      "url": "https://www.mailinator.com/",
+      "launcher": "chrome-mailinator-TRZH5HFJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mailinator-01kz-TRZH5HFJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVW0CNEF66YN5EH0YJANS",
+      "name": "Maildrop",
+      "url": "https://maildrop.cc/",
+      "launcher": "chrome-maildrop-EH0YJANS.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/maildrop-01kz-EH0YJANS"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVXFTX3YV3Q39YR6N0NES",
+      "name": "10 Minute Mail",
+      "url": "https://10minutemail.com/",
+      "launcher": "chrome-10-minute-mail-YR6N0NES.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/10-minute-mail-01kz-YR6N0NES"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVYKRGX9ECPRRE161JQWG",
+      "name": "Guerrilla Mail",
+      "url": "https://www.guerrillamail.com/",
+      "launcher": "chrome-guerrilla-mail-E161JQWG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/guerrilla-mail-01kz-E161JQWG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MVZY1WC7MKETQMN23HGPY",
+      "name": "Email Hippo",
+      "url": "https://www.emailhippo.com/",
+      "launcher": "chrome-email-hippo-MN23HGPY.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/email-hippo-01kz-MN23HGPY"
+    },
+    {
+      "old_id": "FFPWA-01KZ5MW3DVCHT0872RNYNE01AB",
+      "name": "Mailpit",
+      "url": "http://localhost:8025/",
+      "launcher": "chrome-mailpit-NYNE01AB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/mailpit-01kz-NYNE01AB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1BX34TWBJRFN0SYB9ZKF",
+      "name": "Google Translate",
+      "url": "https://translate.google.com/",
+      "launcher": "chrome-google-translate-0SYB9ZKF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-translate-01kz-0SYB9ZKF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1CJ3DPWMT4G9XCN74RTB",
+      "name": "DeepL",
+      "url": "https://www.deepl.com/",
+      "launcher": "chrome-deepl-XCN74RTB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/deepl-01kz-XCN74RTB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1DC6VCZYE8GYHQMS7AG0",
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org/",
+      "launcher": "chrome-wikipedia-HQMS7AG0.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wikipedia-01kz-HQMS7AG0"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1E1MJYMWHDKK5NTG21GB",
+      "name": "Wiktionary",
+      "url": "https://www.wiktionary.org/",
+      "launcher": "chrome-wiktionary-5NTG21GB.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wiktionary-01kz-5NTG21GB"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1ENYMT0HK2Z9YRXSNZ61",
+      "name": "Dictionary.com",
+      "url": "https://www.dictionary.com/",
+      "launcher": "chrome-dictionary-com-YRXSNZ61.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/dictionary-com-01kz-YRXSNZ61"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1F9F982DBDEZ1VWF5NR3",
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "launcher": "chrome-internet-archive-1VWF5NR3.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/internet-archive-01kz-1VWF5NR3"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1FX45GBCK5J7DSM96G5Z",
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "launcher": "chrome-project-gutenberg-DSM96G5Z.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/project-gutenberg-01kz-DSM96G5Z"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1GGQCWCJ6YKSRQ5GA95Y",
+      "name": "Open Library",
+      "url": "https://openlibrary.org/",
+      "launcher": "chrome-open-library-RQ5GA95Y.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/open-library-01kz-RQ5GA95Y"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1H4KHC6M4QRC9M4B1V0H",
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/",
+      "launcher": "chrome-tradingview-9M4B1V0H.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/tradingview-01kz-9M4B1V0H"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1HR2XNNHYS9ZDYRJ24C9",
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/",
+      "launcher": "chrome-yahoo-finance-DYRJ24C9.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/yahoo-finance-01kz-DYRJ24C9"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1JBPG6JSTQEB7TQA1QAF",
+      "name": "Windy",
+      "url": "https://www.windy.com/",
+      "launcher": "chrome-windy-7TQA1QAF.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/windy-01kz-7TQA1QAF"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1JZC5NH7JPFM0ZFJ5DPN",
+      "name": "Open-Meteo",
+      "url": "https://open-meteo.com/",
+      "launcher": "chrome-open-meteo-0ZFJ5DPN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/open-meteo-01kz-0ZFJ5DPN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1KHF2B7RQ17CZEHHVDYK",
+      "name": "Duolingo",
+      "url": "https://www.duolingo.com/",
+      "launcher": "chrome-duolingo-ZEHHVDYK.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/duolingo-01kz-ZEHHVDYK"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1M5X5A6CZ46EYX2T1BH1",
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "launcher": "chrome-khan-academy-YX2T1BH1.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/khan-academy-01kz-YX2T1BH1"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1MTZBPVSKEPKM2VG19EC",
+      "name": "Radio Garden",
+      "url": "https://radio.garden/",
+      "launcher": "chrome-radio-garden-M2VG19EC.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/radio-garden-01kz-M2VG19EC"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1NFQT735EW1AWW07J920",
+      "name": "Stellarium Web",
+      "url": "https://stellarium-web.org/",
+      "launcher": "chrome-stellarium-web-WW07J920.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/stellarium-web-01kz-WW07J920"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1P4QJZEG0756K1HJAZDG",
+      "name": "WolframAlpha",
+      "url": "https://www.wolframalpha.com/",
+      "launcher": "chrome-wolframalpha-K1HJAZDG.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/wolframalpha-01kz-K1HJAZDG"
+    },
+    {
+      "old_id": "FFPWA-01KZ5P1RWS49NY1AGGQPQC1JKJ",
+      "name": "Immich",
+      "url": "http://localhost:2283/",
+      "launcher": "chrome-immich-QPQC1JKJ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/immich-01kz-QPQC1JKJ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNEXZV3CRKN1RQCVZ0R1C",
+      "name": "Penpot",
+      "url": "http://localhost:8084/",
+      "launcher": "chrome-penpot-QCVZ0R1C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/penpot-01kz-QCVZ0R1C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNFJFBYRVGJ2V0BV6KMJN",
+      "name": "Planka",
+      "url": "http://localhost:5005/",
+      "launcher": "chrome-planka-0BV6KMJN.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/planka-01kz-0BV6KMJN"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNG52KWXK1SQA8C7H302X",
+      "name": "Listmonk",
+      "url": "http://localhost:9009/",
+      "launcher": "chrome-listmonk-8C7H302X.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/listmonk-01kz-8C7H302X"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNGQXPBM8SD8VT3GWJH9R",
+      "name": "Navidrome",
+      "url": "http://localhost:4533/",
+      "launcher": "chrome-navidrome-T3GWJH9R.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/navidrome-01kz-T3GWJH9R"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNHBBCDZEFYW1S3BXRH0V",
+      "name": "LinkStack",
+      "url": "http://localhost:8085/",
+      "launcher": "chrome-linkstack-S3BXRH0V.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/linkstack-01kz-S3BXRH0V"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNHY29EF54R0B0G534EFE",
+      "name": "Matomo (local)",
+      "url": "http://localhost:8090/",
+      "launcher": "chrome-matomo-local-0G534EFE.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/matomo-local-01kz-0G534EFE"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNJH05AK81V9PDCW550TA",
+      "name": "Owncast",
+      "url": "http://localhost:8086/",
+      "launcher": "chrome-owncast-DCW550TA.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/owncast-01kz-DCW550TA"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PNX8W4B953H3KPC4FH1MZ",
+      "name": "Liberapay",
+      "url": "https://liberapay.com/",
+      "launcher": "chrome-liberapay-PC4FH1MZ.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/liberapay-01kz-PC4FH1MZ"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PP2MD8VRTKA1XD1CJ4Y1C",
+      "name": "QR Code API",
+      "url": "https://goqr.me/",
+      "launcher": "chrome-qr-code-api-D1CJ4Y1C.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/qr-code-api-01kz-D1CJ4Y1C"
+    },
+    {
+      "old_id": "FFPWA-01KZ5PT2B66ZR5YPZRYMS4P0NR",
+      "name": "Google Trends",
+      "url": "https://trends.google.com/",
+      "launcher": "chrome-google-trends-YMS4P0NR.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/google-trends-01kz-YMS4P0NR"
+    },
+    {
+      "old_id": "WebApp-extensions",
+      "name": "Extensions",
+      "url": "https://chromewebstore.google.com",
+      "launcher": "chrome-extensions.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/extensions-WEBAPP"
+    },
+    {
+      "old_id": "WebApp-search",
+      "name": "Search",
+      "url": "https://html.duckduckgo.com/html/",
+      "launcher": "chrome-search.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/search-WEBAPP"
+    },
+    {
+      "old_id": "WebApp-x",
+      "name": "X",
+      "url": "https://x.com",
+      "launcher": "chrome-x.desktop",
+      "data_dir": "/home/natalie/.config/eilatan-webapps/x-WEBAPP"
+    }
+  ]
+}

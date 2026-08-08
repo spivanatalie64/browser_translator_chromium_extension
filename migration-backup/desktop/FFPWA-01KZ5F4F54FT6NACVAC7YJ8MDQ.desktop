@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=FaceTime
+Comment=
+Keywords=;
+Categories=Network;
+Icon=FFPWA-01KZ5F4F54FT6NACVAC7YJ8MDQ
+Exec=/usr/bin/firefoxpwa site launch 01KZ5F4F54FT6NACVAC7YJ8MDQ --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5F4F54FT6NACVAC7YJ8MDQ

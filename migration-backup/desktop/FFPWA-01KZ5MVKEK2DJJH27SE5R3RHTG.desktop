@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=iCloud Mail
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MVKEK2DJJH27SE5R3RHTG
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MVKEK2DJJH27SE5R3RHTG --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MVKEK2DJJH27SE5R3RHTG

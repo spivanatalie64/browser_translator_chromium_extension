@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Khan Academy
+Comment=
+Keywords=;
+Categories=Utility;Network;
+Icon=FFPWA-01KZ5P1M5X5A6CZ46EYX2T1BH1
+Exec=/usr/bin/firefoxpwa site launch 01KZ5P1M5X5A6CZ46EYX2T1BH1 --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5P1M5X5A6CZ46EYX2T1BH1

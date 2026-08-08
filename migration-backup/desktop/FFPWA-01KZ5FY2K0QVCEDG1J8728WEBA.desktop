@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=GNU Savannah
+Comment=
+Keywords=;
+Categories=Network;Development;
+Icon=FFPWA-01KZ5FY2K0QVCEDG1J8728WEBA
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FY2K0QVCEDG1J8728WEBA --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FY2K0QVCEDG1J8728WEBA

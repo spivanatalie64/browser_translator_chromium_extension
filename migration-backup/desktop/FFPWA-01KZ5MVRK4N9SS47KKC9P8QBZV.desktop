@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Google Contacts
+Comment=
+Keywords=;
+Categories=Network;Email;
+Icon=FFPWA-01KZ5MVRK4N9SS47KKC9P8QBZV
+Exec=/usr/bin/firefoxpwa site launch 01KZ5MVRK4N9SS47KKC9P8QBZV --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5MVRK4N9SS47KKC9P8QBZV

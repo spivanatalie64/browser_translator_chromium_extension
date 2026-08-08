@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.4
+Name=Cloudflare Dashboard
+Comment=
+Keywords=;
+Categories=Network;System;
+Icon=FFPWA-01KZ5FXN3555CCG1WRP7ZPX5PN
+Exec=/usr/bin/firefoxpwa site launch 01KZ5FXN3555CCG1WRP7ZPX5PN --protocol %u
+Actions=
+MimeType=
+Terminal=false
+StartupNotify=true
+StartupWMClass=FFPWA-01KZ5FXN3555CCG1WRP7ZPX5PN
